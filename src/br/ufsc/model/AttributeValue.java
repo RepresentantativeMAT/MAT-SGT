@@ -84,7 +84,7 @@ public class AttributeValue {
 
     @Override
     public String toString() {
-        return attibute.getName() +" -> "+value;
+        return attibute.getName() +": "+value;
     }
 
     

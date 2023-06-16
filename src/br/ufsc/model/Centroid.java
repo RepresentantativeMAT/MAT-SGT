@@ -165,6 +165,18 @@ public class Centroid extends Point implements Comparable{
 
         return txt;
     }
+    
+    public String getMappingInformation(){
+        String aux = "{";
+        for (var p : pointListSource) {
+            aux += p.getTrajectory().getId() + ": " + p.getrId() + "; ";
+        }
+        
+        aux += "}";
+        aux = aux.replace("; }", "}");
+        return aux;
+    }
+    
 
     @Override
     public int hashCode() {

@@ -1,9 +1,9 @@
 /*
     
     
-    Lembrar que a Medida MUITAS agora está usando distância euclideana ao invés da célula
+    version 4: -- update on 15/06/23
 
-    version 3 test: -- update on 25/05/23
+    Ajustar arquivo de saída da RT
 
     ajustar normalizeRankingValuesNotNulls assim como "normalizeRankingValues" 
 
@@ -49,7 +49,7 @@ import measure.MUITAS;
  *
  * @author Vanessa
  */
-public class MATSG_TimeSeq_version3 {
+public class MATSG_TimeSeq_version4 {
     // Attributes 
 
     // ------------- to Spatial division -- Dataset file information
@@ -67,7 +67,7 @@ public class MATSG_TimeSeq_version3 {
     private final int THRESHOLD_TIME = 100;
 
     // --------------- to determine categoricals pre-defined values
-    List<String> lstCategoricalsPD = null;
+    List<String> lstCategoricalsPD;
     List<String> lstIgnoreCols = null;
     String[] valuesNulls; //witch values are considered null in input dataset?
 
@@ -419,6 +419,7 @@ public class MATSG_TimeSeq_version3 {
 
                 Double[] valuesNumInvalid = {-999.0, -1.0}; //Null values for numerical values
 
+                // VOLTAR AQUI
                 for (AttributeValue atv : p.getListAttrValues()) {
                     attrActual = "" + atv.getAttibute().getOrder();
 
@@ -427,7 +428,7 @@ public class MATSG_TimeSeq_version3 {
                     try {
                         //Vanessa: Algo de errado ao trabalhar com dados numericos
 
-                        val = Double.parseDouble((String) atv.getValue()); // val -1 refers to empty value
+                        val = Double.valueOf((String) atv.getValue()); // val -1 refers to empty value
 
                         attributes.get(attributes.indexOf(atv.getAttibute())).setType(SemanticType.NUMERICAL);
 
@@ -660,7 +661,7 @@ public class MATSG_TimeSeq_version3 {
         this.valuesNulls = valuesNULL;
         //Parameter for defining representativeness values and compute relevant cell
         this.threshold_rv = threshold_rv;
-        if (lstCategoricalsPD != null) {
+        if (lstCategoricalPD != null) {
             lstCategoricalsPD = Arrays.asList(lstCategoricalPD);
         }
         if (ignoreColumns != null) {
@@ -817,7 +818,7 @@ public class MATSG_TimeSeq_version3 {
         }
         int mappedPoints = 0;
         for (Map.Entry<String, Integer> eachValue : mapRank.entrySet()) {
-            double trendEachVal = (double) eachValue.getValue() / sizeRP;
+            double trendEachVal = (double) eachValue.getValue() / sizeRP; 
             if (trendEachVal >= threshold_rv) {
                 mappedPoints += eachValue.getValue();
             } else {
@@ -1264,13 +1265,13 @@ public class MATSG_TimeSeq_version3 {
     }
 
     private void createRepresentativePoints(List<STI> significantTemporalIntervals) {
-        System.out.println("All STI");
-        System.out.println(significantTemporalIntervals);
+        //System.out.println("All STI");
+        //System.out.println(significantTemporalIntervals);
         
-        System.out.println("STIs com mais pontos acordo com o tau_rv ");
+        //System.out.println("STIs com mais pontos acordo com o tau_rv ");
         for (STI interval : significantTemporalIntervals) {
             if (interval.getProportion() >= threshold_rv) {
-                System.out.println("STI: "+interval+" -- proportion: "+interval.getProportion());
+//                System.out.println("STI: "+interval+" -- proportion: "+interval.getProportion());
                 Centroid representativePoint = createCentroidForSTI(interval);
 
                 if (!representativePoint.getPointListSource().isEmpty()) {
@@ -1328,8 +1329,37 @@ public class MATSG_TimeSeq_version3 {
             mxWriter.writeLine(infoBetterRT);
             mxWriter.writeLine("##");
             mxWriter.writeLine("RT description:");
+            
+            
+            
+            //Descrição do cabeçalho da RT
+            String head = "lat_lon, time, ";
+            for(SemanticAspect att: attributes){
+                head += att.getName()+", ";
+            }
+            head += "mapping"
+//                    + ", cell"
+                    ;
+                    
+            mxWriter.writeLine(head);
+            mxWriter.flush();
             for (Point p : betterRT.getPointList()) {
-                mxWriter.writeLine(p.toString());
+                Centroid rp = ((Centroid)p);
+                String eachPoint = rp.getX()+" "+rp.getY()+", ";
+                eachPoint += rp.getSti()+", ";
+                
+                for(SemanticAspect att: attributes){
+                    //head += rp.getAttributeValue(att)+", ";
+                    
+                    AttributeValue atv = rp.findAttributeValue(att.getName());
+//                    System.out.println("attribute: "+att+"; atv: "+atv);
+                    eachPoint += atv == null ? "null , " : (atv.getValue().toString().replace(",", ";").replace("=", ": ") +", ");
+                    
+                }
+                eachPoint += rp.getMappingInformation()+", ";
+//                eachPoint += rp.getCellReference();
+                
+                mxWriter.writeLine(eachPoint);
                 mxWriter.flush();
             }
             mxWriter.flush();

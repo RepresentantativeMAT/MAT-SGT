@@ -64,7 +64,7 @@ public class TemporalAspect {
 
     @Override
     public String toString() {
-        return formatDate.format(startTime) +" - "+ (endTime != null? formatDate.format(endTime):"");
+        return formatDate.format(startTime) + (endTime != null? " - "+formatDate.format(endTime):"") ;
     }
 
     /**

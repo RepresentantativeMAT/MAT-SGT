@@ -12,7 +12,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -222,8 +221,6 @@ public class Point {
     }
     
     
-        
-    
     public void addAttrValue(Object value, SemanticAspect attr) {
         listAttrValues.add(new AttributeValue(value, attr));
     }
@@ -243,6 +240,8 @@ public class Point {
 
         return txt;
     }
+    
+    
     
     
 
@@ -328,13 +327,20 @@ public class Point {
     }
 
     public String getCellReference() {
-        return cellReference;
+        return cellReference.replace(",", " ");
     }
 
     public void setCellReference(String cellReference) {
         this.cellReference = cellReference;
     }
     
-    
+    public AttributeValue findAttributeValue(String name){
+        for(AttributeValue att: listAttrValues){
+            if(att.getAttibute().getName().equalsIgnoreCase(name)){
+                return att;
+            }
+        }
+        return null;
+    }
     
 }
