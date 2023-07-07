@@ -1,0 +1,8 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+17464,43.71236189272601 10.41886305437462,2014-06-04 07:24:05,288,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,1087.711054833749,666
+17468,43.7120860023831 10.41836097837465,2014-06-04 12:45:21,885,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,15157.686614060409,666
+20682,43.66443199109627 10.35068809055756,2014-06-04 15:40:07,910,Wednesday,Verso casa,Automobile,15319.4100715014,666
+21568,43.71245757215071 10.41877303273456,2014-06-08 09:50:13,1026,Sunday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Automobile,5191.241609133754,666
+21570,43.70891433213251 10.38503687829746,2014-06-08 10:09:04,1482,Sunday   ,"Svago (sport, escursioni, musei,...)",Automobile,26552.96458637198,666
+21574,43.48240559459057 10.33443851397404,2014-06-08 10:36:28,1409,Sunday   ,"Svago (sport, escursioni, musei,...)",Automobile,6846.603578116637,666
+22428,43.464763 10.353242,2014-06-08 15:15:07,2589,Sunday   ,Verso casa,Automobile,32277.530090879725,666

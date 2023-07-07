@@ -1,9 +1,9 @@
 /*
     
     
-    Lembrar que a Medida MUITAS agora está usando distância euclideana ao invés da célula
+    version on 07/07/23
 
-    version 3 test: -- update on 25/05/23
+    update on the output Representativeness Measure
 
     ajustar normalizeRankingValuesNotNulls assim como "normalizeRankingValues" 
 
@@ -20,8 +20,8 @@ import br.ufsc.model.STI;
 import br.ufsc.model.SemanticAspect;
 import br.ufsc.model.SemanticType;
 import br.ufsc.model.TemporalAspect;
-import br.ufsc.util.CSVWriter;
 import br.ufsc.util.Util;
+import br.ufsc.util.CSVWriter;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -49,7 +49,7 @@ import measure.MUITAS;
  *
  * @author Vanessa
  */
-public class MATSG_TimeSeq_version3 {
+public class MATSGT {
     // Attributes 
 
     // ------------- to Spatial division -- Dataset file information
@@ -67,14 +67,14 @@ public class MATSG_TimeSeq_version3 {
     private final int THRESHOLD_TIME = 100;
 
     // --------------- to determine categoricals pre-defined values
-    List<String> lstCategoricalsPD = null;
+    List<String> lstCategoricalsPD;
     List<String> lstIgnoreCols = null;
     String[] valuesNulls; //witch values are considered null in input dataset?
 
     //-- parameters to MAT-SG (defined by the user)
-    private float threshold_rc; //To define relevant cells 
+    private float rc; //To define relevant cells 
     private float threshold_rv; //To define relevant values in rank values, which values in rank are representative
-    private float rc; //To define relevant values in rank values, which values in rank are representative
+    private float threshold_rc; //To define relevant values in rank values, which values in rank are representative
 
     // -- Load
     // For loading information from the dataset
@@ -230,7 +230,6 @@ public class MATSG_TimeSeq_version3 {
 
             a = findAttributeForOrder(ord++);
             if (a != null) { // This one will be NULL whether the columns is setted as ignored
-//                System.out.println("Attribute order: " + a + " --> val: " + val);
 
                 if (a.getType() != null
                         && a.getType().equals(SemanticType.CATEGORICAL)) { //if it is predefined as Categorical
@@ -330,7 +329,7 @@ public class MATSG_TimeSeq_version3 {
 
             //Gets amount of points in the current cell
             int qntPoints = spatialCellGrid.get(cellAnalyzed).cardinality();
-            if (qntPoints >= threshold_rc) { // IF number is at least a threshold RC
+            if (qntPoints >= rc) { // IF number is at least a threshold RC
                 resetValuesToSummarization();
 
                 // Loop in all points of the cell
@@ -372,18 +371,18 @@ public class MATSG_TimeSeq_version3 {
         Collections.sort(timeInPoints);
 
         List<Integer> differences = computeTimeDifferences(timeInPoints);
-        float averageDifference = calculateAverage(differences);
+        float averageDifference = Util.calculateAverage(differences);
 
         int thresholdDifferences = THRESHOLD_TIME; // Default threshold for <= 2 occurrences
         if (differences.size() > 2) {
-            float median = calculateMedian(differences);
-            float standardDeviation = calculateStandardDeviation(differences, averageDifference);
+            float median = Util.calculateMedian(differences);
+            float standardDeviation = Util.calculateStandardDeviation(differences, averageDifference);
 
             float lowerValue = median - standardDeviation;
             float upperValue = median + standardDeviation;
 
-            List<Integer> validDifferences = removeOutliers(differences, lowerValue, upperValue);
-            thresholdDifferences = (int) Math.floor(calculateAverage(validDifferences));
+            List<Integer> validDifferences = Util.removeOutliers(differences, lowerValue, upperValue);
+            thresholdDifferences = (int) Math.floor(Util.calculateAverage(validDifferences));
         }
 
         createTemporalIntervals(timeInPoints, significantTemporalIntervals, thresholdDifferences);
@@ -419,6 +418,7 @@ public class MATSG_TimeSeq_version3 {
 
                 Double[] valuesNumInvalid = {-999.0, -1.0}; //Null values for numerical values
 
+                // VOLTAR AQUI
                 for (AttributeValue atv : p.getListAttrValues()) {
                     attrActual = "" + atv.getAttibute().getOrder();
 
@@ -427,7 +427,7 @@ public class MATSG_TimeSeq_version3 {
                     try {
                         //Vanessa: Algo de errado ao trabalhar com dados numericos
 
-                        val = Double.parseDouble((String) atv.getValue()); // val -1 refers to empty value
+                        val = Double.valueOf((String) atv.getValue()); // val -1 refers to empty value
 
                         attributes.get(attributes.indexOf(atv.getAttibute())).setType(SemanticType.NUMERICAL);
 
@@ -618,9 +618,9 @@ public class MATSG_TimeSeq_version3 {
             Collections.sort(validDistances);
 
             // Compute the median value of the distances
-            float medianMinDist = calculateMedian(validDistances);
+            float medianMinDist = Util.calculateMedian(validDistances);
             // Compute the standard deviation
-            float sdMinDist = calculateStandardDeviation(validDistances, avgMinDist);
+            float sdMinDist = Util.calculateStandardDeviation(validDistances, avgMinDist);
 
             // Compute the valid interval
             float lessValueMinDist = medianMinDist - 4 * sdMinDist;
@@ -635,7 +635,7 @@ public class MATSG_TimeSeq_version3 {
             }
 
             // Compute the spatial threshold -- average of valid values
-            spatialThreshold = calculateAverage(validDistancesWithoutOutliers);
+            spatialThreshold = Util.calculateAverage(validDistancesWithoutOutliers);
 
             auxMaxZ = maxDistanceToZero / spatialThreshold;
         }
@@ -650,7 +650,7 @@ public class MATSG_TimeSeq_version3 {
      * @throws IOException
      *
      */
-    public void execute(String dir, String file, String ext, String[] lstCategoricalPD, String SEPARATOR, String[] valuesNULL, String[] ignoreColumns, String patternDateInput, float rc, float threshold_rv) throws IOException, ParseException, CloneNotSupportedException {
+    public void execute(String dir, String file, String ext, String[] lstCategoricalPD, String SEPARATOR, String[] valuesNULL, String[] ignoreColumns, String patternDateInput, float threshold_rc, float threshold_rv) throws IOException, ParseException, CloneNotSupportedException {
         initialTemp = new Date();
         //initialization of attribute values (Global attributes according to local data)
         directory = dir;
@@ -660,7 +660,7 @@ public class MATSG_TimeSeq_version3 {
         this.valuesNulls = valuesNULL;
         //Parameter for defining representativeness values and compute relevant cell
         this.threshold_rv = threshold_rv;
-        if (lstCategoricalsPD != null) {
+        if (lstCategoricalPD != null) {
             lstCategoricalsPD = Arrays.asList(lstCategoricalPD);
         }
         if (ignoreColumns != null) {
@@ -698,8 +698,8 @@ public class MATSG_TimeSeq_version3 {
         load();
 
         //rc is defined as the minimun number of points ( calculated by the % of all points) that should have in each cell
-        this.rc = rc;
-        threshold_rc = rc > 0.0 ? (rc * points.size()) : 2; //If rc is greater than zero sets threshold according with number of points, else sets to 2
+        this.threshold_rc = threshold_rc;
+        rc = threshold_rc > 0.0 ? (threshold_rc * points.size()) : 2; //If threshold_rc is greater than zero sets threshold according with number of points, else sets to 2
 
         //As auxiliar var to load all input trajectories & all points of trajectories (validation)
         listAllTrajectories = List.copyOf(listTrajectories);
@@ -764,7 +764,7 @@ public class MATSG_TimeSeq_version3 {
                     count = 0;
                     betterRT = null;
                     betterRT = (MultipleAspectTrajectory) representativeTrajectory.clone();
-                    infoBetterRT = createInfoBetterRT(tempBetterZ, tempBetterRM, tempOnlyRM);
+                    infoBetterRT = createInfoBetterRT(tempBetterZ);
 
                 } else {
                     count++;
@@ -784,7 +784,7 @@ public class MATSG_TimeSeq_version3 {
 //            for (Map.Entry<String, BitSet> entry : spatialCellGrid.entrySet()) {
 //                infoBetterRT += entry.getKey()+" | ";
 //            }
-            String outputFile = directory + "output\\" + filename + " rc " + (int) (rc * 100) + " rv " + (int) (threshold_rv * 100) + " - z" + tempBetterZ;
+            String outputFile = directory + "output\\" + filename + " rc " + (int) (threshold_rc * 100) + " rv " + (int) (threshold_rv * 100) + " - z" + tempBetterZ;
             writeRepresentativeTrajectory(outputFile, infoBetterRT);
             rankMUITAS(outputFile);
             
@@ -817,7 +817,7 @@ public class MATSG_TimeSeq_version3 {
         }
         int mappedPoints = 0;
         for (Map.Entry<String, Integer> eachValue : mapRank.entrySet()) {
-            double trendEachVal = (double) eachValue.getValue() / sizeRP;
+            double trendEachVal = (double) eachValue.getValue() / sizeRP; 
             if (trendEachVal >= threshold_rv) {
                 mappedPoints += eachValue.getValue();
             } else {
@@ -1013,7 +1013,7 @@ public class MATSG_TimeSeq_version3 {
     public double medianSimilarityMeasure() throws ParseException {
 
         if (representativeTrajectory.getPointList().isEmpty()) {
-            System.out.println("RT is empty");
+            System.err.println("RT is empty");
             return -1;
         }
 
@@ -1026,7 +1026,6 @@ public class MATSG_TimeSeq_version3 {
 
         float auxWeight = 0.33f / (attributes.size());
 
-        //System.out.println("Atributes: " + attributes);
         for (SemanticAspect eachAtt : attributes) {
             measure.setWeight(eachAtt, auxWeight);
             if (eachAtt.getType().equals(SemanticType.NUMERICAL)) {
@@ -1041,15 +1040,10 @@ public class MATSG_TimeSeq_version3 {
         List<Double> listValues = new ArrayList<>();
 
         for (MultipleAspectTrajectory eachTraj : listTrajectories) {
-            System.out.println("###");
-            System.out.println("Computing similarity");
-
             listValues.add(measure.similarityOf(representativeTrajectory, eachTraj));
-            System.out.println("Similarity: " + listValues.get(listValues.size() - 1));
-
-        }
+                    }
         //after computed measure with each T and RT, it is computed median value
-        repMeasure = calculateMedian(listValues);
+        repMeasure = Util.calculateMedian(listValues);
 
         return repMeasure;
 
@@ -1166,7 +1160,7 @@ public class MATSG_TimeSeq_version3 {
             } else {
                 valWriter = new CSVWriter(fileCompleteValidation, true);
             }
-            valWriter.writeLine(formatNumber.format(threshold_rv) + ", " + formatNumber.format(threshold_rc / points.size()) + ", "
+            valWriter.writeLine(formatNumber.format(threshold_rv) + ", " + formatNumber.format(rc / points.size()) + ", "
                     + listTrajectories.size() + ", " + listAllTrajectories.size() + ", "
                     + countPrecisionRetrieved + ", " + formatNumber.format((double) listTrajectories.size() / countPrecisionRetrieved) + ", "
                     + countRecallRetrieved + ", " + formatNumber.format((float) countRecallRetrieved / listTrajectories.size()) + ", ??");
@@ -1179,60 +1173,6 @@ public class MATSG_TimeSeq_version3 {
     }
 
     // Reusable codes
-    /**
-     * calculates the average of a list of integers correctly accept "float" or
-     * "integer" values
-     *
-     * @param values
-     * @return average value
-     */
-    private <T extends Number> float calculateAverage(List<T> values) {
-        float sum = 0;
-        for (T val : values) {
-            sum += val.floatValue();
-
-        }
-        return (float) sum / values.size();
-    }
-
-    /**
-     * calculates the median of a list of integers correctly.
-     *
-     * @param values
-     * @return median value
-     */
-    private <T extends Number & Comparable<? super T>> float calculateMedian(List<T> values) {
-        Collections.sort(values, Comparator.naturalOrder());
-        int size = values.size();
-        int middleIndex = size / 2;
-        if (size % 2 == 1) {
-            return values.get(middleIndex).floatValue();
-        } else {
-            T value1 = values.get(middleIndex - 1);
-            T value2 = values.get(middleIndex);
-            return (value1.floatValue() + value2.floatValue()) / 2;
-        }
-    }
-
-    private <T extends Number> float calculateStandardDeviation(List<T> values, float average) {
-        float sumOfSquares = 0;
-        for (T value : values) {
-            float differenceMinusAverage = value.floatValue() - average;
-            sumOfSquares += differenceMinusAverage * differenceMinusAverage;
-        }
-        float meanOfSquares = sumOfSquares / values.size();
-        return (float) Math.sqrt(meanOfSquares);
-    }
-
-    private List<Integer> removeOutliers(List<Integer> values, float lowerValue, float upperValue) {
-        List<Integer> validValues = new ArrayList<>();
-        for (int val : values) {
-            if (val >= lowerValue && val <= upperValue) {
-                validValues.add(val);
-            }
-        }
-        return validValues;
-    }
 
     private void createTemporalIntervals(List<Date> timeInPoints, List<STI> significantTemporalIntervals, int threshold) {
         int count = 1;
@@ -1264,13 +1204,9 @@ public class MATSG_TimeSeq_version3 {
     }
 
     private void createRepresentativePoints(List<STI> significantTemporalIntervals) {
-        System.out.println("All STI");
-        System.out.println(significantTemporalIntervals);
-        
-        System.out.println("STIs com mais pontos acordo com o tau_rv ");
+
         for (STI interval : significantTemporalIntervals) {
             if (interval.getProportion() >= threshold_rv) {
-                System.out.println("STI: "+interval+" -- proportion: "+interval.getProportion());
                 Centroid representativePoint = createCentroidForSTI(interval);
 
                 if (!representativePoint.getPointListSource().isEmpty()) {
@@ -1311,25 +1247,57 @@ public class MATSG_TimeSeq_version3 {
      */
     public void writeRepresentativeTrajectory(String fileOutput, String infoBetterRT) {
         try {
+            SimpleDateFormat formatRunTime = new SimpleDateFormat("yy-MM-dd HH:mm:ss.S");
             CSVWriter mxWriter = new CSVWriter(fileOutput + extension);
-            mxWriter.writeLine("Method runtime information:");
-            mxWriter.writeLine("Start timestamp: " + initialTemp);
-            mxWriter.writeLine("End timestamp: " + new Date());
-            mxWriter.writeLine("##");
             mxWriter.writeLine("Info input dataset:");
             mxWriter.writeLine("|input.T|, |input.T.points|");
             mxWriter.writeLine(listTrajectories.size() + ", " + points.size());
             mxWriter.writeLine("##");
             mxWriter.writeLine("RT setting infos:");
-            mxWriter.writeLine("thresholdCellSize, |rt|, CellSize, "
-                    + "tauRelevantCell, minPointsRC, "
-                    + "tauRepresentativenessValue, |cell|, "
-                    + "RepresentativenessMeasure, |cover RT|");
-            mxWriter.writeLine(infoBetterRT);
+            
+            mxWriter.writeLine("thresholdCellSize, CellSize, "
+                    + "tauRelevantCell, tauRepresentativenessValue, "
+                    + "|cell|, minPointRC, "
+                    + "|rt|, |coverPoints|, "
+                    + "runtime start, runtime end");
+            
+            mxWriter.writeLine(
+                    infoBetterRT+ ", "
+                    + formatRunTime.format(initialTemp)+", "
+                    + formatRunTime.format(new Date())
+            );
             mxWriter.writeLine("##");
             mxWriter.writeLine("RT description:");
+            
+            
+            
+            //Descrição do cabeçalho da RT
+            String head = "lat_lon, time, ";
+            for(SemanticAspect att: attributes){
+                head += att.getName()+", ";
+            }
+            head += "mapping"
+//                    + ", cell"
+                    ;
+                    
+            mxWriter.writeLine(head);
+            mxWriter.flush();
             for (Point p : betterRT.getPointList()) {
-                mxWriter.writeLine(p.toString());
+                Centroid rp = ((Centroid)p);
+                String eachPoint = rp.getX()+" "+rp.getY()+", ";
+                eachPoint += rp.getSti()+", ";
+                
+                for(SemanticAspect att: attributes){
+                    //head += rp.getAttributeValue(att)+", ";
+                    
+                    AttributeValue atv = rp.findAttributeValue(att.getName());
+
+                    eachPoint += atv == null ? "null , " : (atv.getValue().toString().replace(",", ";").replace("=", ": ") +", ");
+                    
+                }
+                eachPoint += rp.getMappingInformation();
+                
+                mxWriter.writeLine(eachPoint);
                 mxWriter.flush();
             }
             mxWriter.flush();
@@ -1339,16 +1307,16 @@ public class MATSG_TimeSeq_version3 {
         }
     }
 
-    private String createInfoBetterRT(int tempBetterZ, float tempBetterRM, float tempOnlyRM) {
-        return tempBetterZ + ", "
-                + betterRT.getPointList().size() + ", "
-                + cellSizeSpace + ", " + rc + ", "
-                + threshold_rc + ", " + threshold_rv + ", "
-                + spatialCellGrid.size() + ", "
-                + tempBetterRM + ", "
-                + betterRT.getCoverPoints();
-//             + ", "
-//                + tempOnlyRM;
+    private String createInfoBetterRT(int tempBetterZ) {
+        return 
+                tempBetterZ + ", " // thresholdCellSize
+                + cellSizeSpace + ", " // cellSize
+                + threshold_rc + ", " // tauRelevantCell
+                + threshold_rv + ", " // tauRepresentativeValue
+                + spatialCellGrid.size() + ", " // |cell|
+                + rc + ", " // minPointRC
+                + betterRT.getPointList().size() + ", " // |rt|
+                + betterRT.getCoverPoints(); // |coverPoints|
     }
 
     //################# getter and setter

@@ -5,10 +5,6 @@
  */
 package br.ufsc.tests;
 
-
-
-
-
 import br.ufsc.methods.MATSGT_v4;
 import br.ufsc.methods.MATSG_TimeSeq_version3;
 import br.ufsc.methods.MATSG_TimeSeq_version4;
@@ -19,7 +15,7 @@ import java.text.ParseException;
  *
  * @author vanes
  */
-public class ManualExperiment {
+public class ManualExperimentFoursquare {
 
     public static String filename;
     public static String extension;
@@ -28,40 +24,37 @@ public class ManualExperiment {
     public static void main(String[] args) throws IOException, ParseException, CloneNotSupportedException {
 
         dir = "datasets/";
-        dir += "RE/";
-        filename = "Running_Example_v5";
+        dir += "Foursquare-nyc/";
+        filename = "foursquare_user_70";
 //        filename = args[0];
         extension = ".csv";
 
-        
         //informando lista de att a ser forçados como categoricos, mesmo contendo números
         String[] lstCategoricalsPreDefined = {"price"};
         for (int i = 0; i < lstCategoricalsPreDefined.length; i++) {
             lstCategoricalsPreDefined[i] = lstCategoricalsPreDefined[i].toUpperCase();
         }
-        
+
         String SEPARATOR = ",";
-        
-        String[] valuesNulls = {"-1"};
 
-        String[] lstIgnoreColumns = null;
-//        String[] lstIgnoreColumns = {"label"};
-//        for (int i = 0; i < lstIgnoreColumns.length; i++) {
-//            lstIgnoreColumns[i] = lstIgnoreColumns[i].toUpperCase();
-//        }
+        String[] valuesNulls = {"-999"};
 
-        float threshold_rc = 0.25f;
-        float threshold_rv = 0.25f;
+//        String[] lstIgnoreColumns = null;
+        String[] lstIgnoreColumns = {"label", "poi"};
+        for (int i = 0; i < lstIgnoreColumns.length; i++) {
+            lstIgnoreColumns[i] = lstIgnoreColumns[i].toUpperCase();
+        }
+
+        float threshold_rc = 0.05f;
+        float threshold_rv = 0.08f;
 //        String patternDate = "yyyy-MM-dd HH:mm:SS.SSS";
         String patternDateIn = "?"; //For minutes time (integer value) inform '?' character
-        
+
         MATSGT_v4 method = new MATSGT_v4();
 //            method.notConsiderNulls();
-            method.setFilenameFullDataset(filename+"_complete");
-            method.execute(dir, filename, extension, lstCategoricalsPreDefined, SEPARATOR, valuesNulls, lstIgnoreColumns, patternDateIn, threshold_rc, threshold_rv);
-        
-        
-        
+//            method.setFilenameFullDataset(filename+"_complete");
+        method.execute(dir, filename, extension, lstCategoricalsPreDefined, SEPARATOR, valuesNulls, lstIgnoreColumns, patternDateIn, threshold_rc, threshold_rv);
+
     }
 
 }

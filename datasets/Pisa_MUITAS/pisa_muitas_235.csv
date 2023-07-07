@@ -1,0 +1,298 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+11556,43.7015829 10.4084343,2014-05-22 10:46:35,7326,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,83884.25258531459,235
+11558,43.7015829 10.4084343,2014-05-22 12:50:58,2518,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,19805.52358286873,235
+11560,43.7015829 10.4084343,2014-05-22 13:35:36,1968,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,14605.584360500949,235
+11562,43.7015829 10.4084343,2014-05-22 14:13:38,1731,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,12974.506598798458,235
+11564,43.7015829 10.4084343,2014-05-22 14:44:01,362,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1942.101372431252,235
+11566,43.7015829 10.4084343,2014-05-22 14:52:57,2554,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,17200.662261362286,235
+11568,43.7015829 10.4084343,2014-05-22 15:41:10,4198,Thursday ,Verso casa,Motociclo,24606.35179063039,235
+11570,43.6985283 10.4433261,2014-05-22 16:58:29,422,Thursday ,"Svago (sport, escursioni, musei,...)",Piedi,964.6460417776656,235
+11572,43.6985283 10.4433261,2014-05-22 17:12:24,2959,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,26788.08697535584,235
+11574,43.7015829 10.4084343,2014-05-22 18:09:45,2493,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,29033.53880777607,235
+11576,43.7015829 10.4084343,2014-05-22 18:59:01,420,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,5332.013126415489,235
+11578,43.7015829 10.4084343,2014-05-22 19:09:48,188,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,1948.7390010454408,235
+11580,43.7015829 10.4084343,2014-05-22 19:19:37,149,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,974.3793807477628,235
+11582,43.7015829 10.4084343,2014-05-22 19:30:08,632,Thursday ,Verso casa,Motociclo,5503.26534625115,235
+11584,43.6985283 10.4433261,2014-05-22 19:43:00,700,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2125.573701877964,235
+11910,43.6973256 10.4415684,2014-05-24 11:40:26,2370,Saturday ,"Svago (sport, escursioni, musei,...)",Automobile,29853.43626173229,235
+11912,43.6759214 10.3005739,2014-05-24 12:36:07,984,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,36388.04130918483,235
+11914,43.8398187 10.2514425,2014-05-24 13:07:00,259,Saturday ,"Svago (sport, escursioni, musei,...)",Piedi,1409.9621551244588,235
+11916,43.6790809 10.2796951,2014-05-24 13:15:14,280,Saturday ,"Svago (sport, escursioni, musei,...)",Automobile,1731.4402922683132,235
+11918,43.8398187 10.2514425,2014-05-24 13:38:27,673,Saturday ,"Svago (sport, escursioni, musei,...)",Automobile,24241.79731608779,235
+11920,43.8398187 10.2514425,2014-05-24 13:54:50,300,Saturday ,"Svago (sport, escursioni, musei,...)",Piedi,5260.371939386873,235
+11922,43.8398187 10.2514425,2014-05-24 14:05:24,176,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1538.2454642491527,235
+11924,43.6771059 10.3022473,2014-05-24 14:23:58,182,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,188.4934288556161,235
+11926,43.8527597 10.2446454,2014-05-24 14:33:02,756,Saturday ,"Svago (sport, escursioni, musei,...)",Automobile,22986.57606001173,235
+11928,43.8398187 10.2514425,2014-05-24 15:02:29,245,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3076.490928498305,235
+11930,43.8398187 10.2514425,2014-05-24 15:16:35,446,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2819.9243102489177,235
+11932,43.6759214 10.3005739,2014-05-24 16:02:01,344,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,376.9868577112321,235
+11934,43.7305953 10.2843286,2014-05-24 16:15:51,1005,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,49691.641730685486,235
+11936,43.7578701 10.2760082,2014-05-24 16:44:21,224,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,9317.780144238905,235
+11938,43.8398187 10.2514425,2014-05-24 16:53:25,381,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3845.617100590113,235
+11940,43.8398187 10.2514425,2014-05-24 17:20:50,835,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,6024.712991254083,235
+12048,43.7578701 10.2760082,2014-05-24 17:39:47,1695,Saturday ,Verso casa,Automobile,29000.05618858408,235
+12050,43.6973335 10.4415713,2014-05-25 09:30:34,789,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Motociclo,1554.1921040119155,235
+12052,43.6981377 10.4427527,2014-05-25 09:45:44,302,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Motociclo,562.9174788706134,235
+12778,43.6985399 10.4433434,2014-05-25 09:55:59,2488,Sunday   ,"Svago (sport, escursioni, musei,...)",Motociclo,30633.121084681643,235
+12780,43.7065435 10.4296819,2014-05-26 05:55:38,594,Monday   ,Al lavoro,Motociclo,5113.446893178495,235
+12782,43.7086386 10.4156243,2014-05-26 06:14:58,249,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1286.9405616456904,235
+12784,43.7016476 10.4085156,2014-05-26 06:29:11,377,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3860.853928092684,235
+12786,43.7016476 10.4085156,2014-05-26 06:38:47,897,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3858.7322532158073,235
+12788,43.7051431 10.41207,2014-05-26 06:57:00,258,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,482.6139885216038,235
+12790,43.7086386 10.4156243,2014-05-26 07:13:51,1442,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,10595.820047754778,235
+12792,43.7086386 10.4156243,2014-05-26 07:46:28,1410,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,7720.502901432324,235
+12794,43.7016476 10.4085156,2014-05-26 08:14:08,248,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1925.04490079662,235
+12796,43.7016476 10.4085156,2014-05-26 08:23:18,720,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3861.39978008589,235
+12798,43.7016476 10.4085156,2014-05-26 08:36:18,737,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,4823.38539674488,235
+12800,43.7016476 10.4085156,2014-05-26 08:52:59,294,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1930.9728160395484,235
+12802,43.7016476 10.4085156,2014-05-26 09:01:02,852,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,5145.401580721325,235
+12804,43.7016476 10.4085156,2014-05-26 09:17:14,905,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,4501.873083414373,235
+12806,43.7016476 10.4085156,2014-05-26 09:33:19,301,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,965.2279770432076,235
+12808,43.7016476 10.4085156,2014-05-26 09:41:20,842,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3213.829018398402,235
+12810,43.7016476 10.4085156,2014-05-26 09:56:22,842,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3859.978926242943,235
+12812,43.7016476 10.4085156,2014-05-26 10:13:25,1744,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,7396.476155479546,235
+12814,43.7016476 10.4085156,2014-05-26 10:43:29,2397,Monday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,29794.04699661296,235
+12816,43.723351 10.4185527,2014-05-26 11:25:57,1059,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,6683.780784567116,235
+12818,43.7245614 10.420393,2014-05-26 11:45:38,2051,Monday   ,Al lavoro,Motociclo,14111.140842756113,235
+12820,43.7016476 10.4085156,2014-05-26 12:28:50,301,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,965.2279770432076,235
+12822,43.7016476 10.4085156,2014-05-26 12:38:51,722,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3216.800208307045,235
+12824,43.7016476 10.4085156,2014-05-26 12:51:53,1209,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,7552.811334328018,235
+12826,43.7016476 10.4085156,2014-05-26 13:14:02,301,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1286.9626975628703,235
+12828,43.7016476 10.4085156,2014-05-26 13:20:03,904,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,8038.98366379206,235
+12830,43.7016476 10.4085156,2014-05-26 13:53:10,3156,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,18491.22458888138,235
+12832,43.7016476 10.4085156,2014-05-26 14:49:48,749,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3861.3997800858906,235
+12834,43.7016476 10.4085156,2014-05-26 15:13:58,757,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3855.748451863557,235
+12836,43.7016476 10.4085156,2014-05-26 15:29:06,1369,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,8676.719164507525,235
+12838,43.7016476 10.4085156,2014-05-26 15:57:16,2539,Monday   ,Verso casa,Autobus/mezzi urbani,14238.279688422826,235
+12840,43.6985245 10.443335,2014-05-26 16:43:07,706,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1355.5363210382027,235
+12842,43.6985245 10.443335,2014-05-26 16:59:37,713,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1524.7172080916284,235
+12844,43.6985245 10.443335,2014-05-26 17:30:38,1300,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2394.144365976731,235
+13736,43.698527 10.4433367,2014-05-27 05:36:52,1016,Tuesday  ,Al lavoro,Automobile,4803.031991865965,235
+13738,43.7016548 10.408524,2014-05-27 06:10:19,655,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3370.387441466351,235
+13740,43.7016548 10.408524,2014-05-27 06:24:52,1593,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,9313.271491247882,235
+13742,43.7016548 10.408524,2014-05-27 06:57:33,467,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3851.427482722945,235
+13744,43.7016548 10.408524,2014-05-27 07:10:59,326,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1925.444122428221,235
+13746,43.7016548 10.408524,2014-05-27 07:26:40,1054,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,6745.210121647883,235
+13748,43.7016548 10.408524,2014-05-27 07:54:46,606,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3850.859340024686,235
+13750,43.7051455 10.4120742,2014-05-27 08:15:34,121,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,481.9838278349259,235
+13752,43.7016548 10.408524,2014-05-27 08:21:06,423,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3853.335248082151,235
+13754,43.7016548 10.408524,2014-05-27 09:17:04,371,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1285.291857501726,235
+13756,43.7016548 10.408524,2014-05-27 09:25:17,311,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1927.9063946559493,235
+13758,43.7063091 10.4132576,2014-05-27 09:58:38,145,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,642.6459288287098,235
+13760,43.7016548 10.408524,2014-05-27 10:14:17,169,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1927.9063946559493,235
+13762,43.7086362 10.4156243,2014-05-27 10:21:38,1240,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,8665.644543039285,235
+13764,43.7016548 10.408524,2014-05-27 10:45:53,756,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,3866.00246849636,235
+13766,43.7233504 10.4185529,2014-05-27 10:59:34,312,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,626.1588962551064,235
+13768,43.7233504 10.4185529,2014-05-27 11:14:31,182,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1174.0198256975457,235
+13770,43.7233504 10.4185529,2014-05-27 11:26:50,643,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,4612.521085316435,235
+13772,43.7234848 10.4184705,2014-05-27 11:39:39,1140,Tuesday  ,Al lavoro,Unknown,8451.008933342842,235
+13774,43.7086362 10.4156243,2014-05-27 12:11:37,1235,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,7383.743944959929,235
+13776,43.7086088 10.4156237,2014-05-27 12:40:29,107,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,961.4764707430522,235
+13778,43.7016548 10.408524,2014-05-27 12:45:52,880,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,4818.979253205695,235
+13780,43.7086362 10.4156243,2014-05-27 13:11:38,1121,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,6748.240527876714,235
+13782,43.7016548 10.408524,2014-05-27 13:37:26,352,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3855.8127893118985,235
+13784,43.7016548 10.408524,2014-05-27 13:46:39,1672,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,13332.808440045796,235
+13786,43.7016548 10.408524,2014-05-27 14:19:52,638,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,6095.149003654103,235
+13788,43.7086362 10.4156243,2014-05-27 14:36:43,168,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,964.5213439088662,235
+13790,43.7016548 10.408524,2014-05-27 14:43:54,283,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1925.4288534262016,235
+13792,43.7016548 10.408524,2014-05-27 14:52:25,772,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,5141.104636757092,235
+13794,43.7016548 10.408524,2014-05-27 15:09:05,248,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1927.9080913172704,235
+13796,43.7016548 10.408524,2014-05-27 15:23:45,268,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1922.9529314956908,235
+13798,43.7016548 10.408524,2014-05-27 15:31:15,944,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,7217.544453904349,235
+13800,43.7086088 10.4156237,2014-05-27 15:54:18,1988,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,19446.00103545584,235
+13802,43.7065451 10.4296633,2014-05-27 16:29:28,294,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1015.7706002740928,235
+13804,43.7075824 10.4333911,2014-05-27 16:39:00,376,Tuesday  ,Rifornimento carburante,Automobile,3126.387189114086,235
+13806,43.7027123 10.4345251,2014-05-27 16:49:20,2767,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,12577.52837818644,235
+14310,43.6882072 10.4200304,2014-05-27 17:38:14,1925,Tuesday  ,Verso casa,Automobile,7172.029263245696,235
+14318,43.7016631 10.4085281,2014-05-28 10:41:20,1157,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,6200.703685143931,235
+14320,43.7247244 10.4188894,2014-05-28 11:15:24,186,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,155.17797790278826,235
+14322,43.7233498 10.4185485,2014-05-28 11:19:30,602,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,653.5892886290982,235
+14324,43.7233498 10.4185485,2014-05-28 11:30:33,917,Wednesday,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,7892.003959444523,235
+14326,43.7241724 10.4186364,2014-05-28 11:47:36,1567,Wednesday,Al lavoro,Motociclo,18331.860691949827,235
+14312,43.7086417 10.4156254,2014-05-28 15:57:57,810,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,5521.711180057753,235
+14314,43.7158909 10.4155996,2014-05-28 16:24:59,374,Wednesday,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,305.4649214022908,235
+14316,43.7158422 10.414722,2014-05-28 16:35:11,366,Wednesday,Verso casa,Motociclo,2565.8745959081543,235
+14758,43.6974488 10.4421074,2014-05-29 05:40:03,1090,Thursday ,Al lavoro,Motociclo,6324.478648207444,235
+14760,43.7016773 10.4085482,2014-05-29 06:01:19,186,Thursday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1922.6263138328504,235
+14766,43.7086404 10.4156275,2014-05-29 10:44:04,1332,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,9632.089115212571,235
+14768,43.7236137 10.418377,2014-05-29 11:11:08,229,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,286.360252442547,235
+14770,43.7233462 10.4185448,2014-05-29 11:18:21,1749,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,40606.031067726246,235
+14772,43.7158236 10.4152129,2014-05-29 11:53:24,352,Thursday ,Al lavoro,Motociclo,1760.1123472214365,235
+14916,43.7039983 10.4109079,2014-05-29 16:11:13,645,Thursday ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,4211.768156345891,235
+14918,43.7157088 10.415815,2014-05-29 16:50:47,2271,Thursday ,Verso casa,Motociclo,14423.28543962028,235
+15200,43.6985416 10.4433648,2014-05-30 03:04:39,405,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,947.1084172189552,235
+15202,43.6985416 10.4433648,2014-05-30 03:21:15,2120,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,55395.52314063416,235
+15204,43.4835242 10.7519203,2014-05-30 04:01:54,532,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,2635.0797135832618,235
+15206,43.8718052 10.774624,2014-05-30 06:19:12,430,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,14696.870089274602,235
+15208,43.8430692 10.6006331,2014-05-30 08:44:50,540,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,27898.808871639536,235
+15210,43.7784509 10.7552265,2014-05-30 09:00:09,349,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,18411.915769861786,235
+15212,43.8872925 10.5393144,2014-05-30 10:25:24,500,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,21408.94226479889,235
+15772,43.888458 10.53687,2014-05-30 10:39:03,414,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,941.0858009554646,235
+15774,43.6985491 10.4433714,2014-05-31 13:57:38,660,Saturday ,Prendere o lasciare qualcuno,Automobile,1010.7600019277849,235
+15776,43.6979414 10.4424686,2014-05-31 14:09:39,440,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,4207.409300841056,235
+15778,43.7155702 10.4119165,2014-05-31 14:40:32,866,Saturday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,12466.722812572876,235
+15780,43.6744829 10.4784878,2014-05-31 14:59:07,565,Saturday ,Rifornimento carburante,Automobile,5650.280057751763,235
+15782,43.6744829 10.4784878,2014-05-31 15:25:56,614,Saturday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,8900.425179727878,235
+15784,43.6744829 10.4784878,2014-05-31 15:38:13,934,Saturday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,19463.16973224218,235
+15786,43.6756448 10.4574281,2014-05-31 16:02:30,1232,Saturday ,Verso casa,Automobile,8472.238748721289,235
+16216,43.6974187 10.4421454,2014-06-02 07:43:04,673,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,782.1846680524902,235
+16218,43.6985388 10.4433212,2014-06-02 07:56:47,314,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,2423.848698183395,235
+16220,43.6926824 10.4682321,2014-06-02 08:03:47,1547,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,18858.610518400856,235
+16222,43.679065 10.2796757,2014-06-02 08:43:17,329,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,5150.509903261571,235
+16224,43.6759559 10.3005625,2014-06-02 09:38:48,302,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,1719.3759185905867,235
+16226,43.6759559 10.3005625,2014-06-02 10:06:23,2438,Monday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,30390.00009209855,235
+16228,43.7240165 10.4187171,2014-06-02 10:54:56,1378,Monday   ,Verso casa,Automobile,7099.817128082957,235
+16670,43.6985388 10.4433212,2014-06-02 11:19:55,678,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,508.57060206537415,235
+16710,43.6981452 10.4427789,2014-06-03 05:43:15,828,Tuesday  ,Al lavoro,Motociclo,5011.193407282476,235
+16672,43.7086132 10.4156479,2014-06-03 10:46:44,1301,Tuesday  ,Verso casa,Motociclo,7406.290346292955,235
+16674,43.6985497 10.4433984,2014-06-03 11:21:23,409,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,1035.0177424762262,235
+16676,43.696379 10.4408663,2014-06-03 11:33:06,933,Tuesday  ,Prendere o lasciare qualcuno,Motociclo,1853.1248970530407,235
+16678,43.6985497 10.4433984,2014-06-03 11:53:16,524,Tuesday  ,Al lavoro,Motociclo,6588.494662851126,235
+16752,43.7052168 10.4121463,2014-06-03 15:46:30,1522,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,10850.998467571671,235
+16754,43.7236742 10.4181231,2014-06-03 16:17:52,1139,Tuesday  ,Verso casa,Motociclo,7180.664182447654,235
+17384,43.6972867 10.4443111,2014-06-04 05:42:11,792,Wednesday,Al lavoro,Motociclo,5213.21789367334,235
+17386,43.7083824 10.4155704,2014-06-04 15:52:06,1552,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,6914.132067135384,235
+17388,43.7254085 10.4265487,2014-06-04 16:18:58,1710,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,5898.03281986508,235
+17390,43.723633 10.4182917,2014-06-04 16:57:29,747,Wednesday,Prendere o lasciare qualcuno,Motociclo,6544.510574562896,235
+17392,43.6972943 10.4443067,2014-06-04 17:14:28,307,Wednesday,Verso casa,Motociclo,1135.465324251223,235
+20544,43.6970683 10.441123,2014-06-06 05:38:14,786,Friday   ,Al lavoro,Motociclo,3836.7972127644034,235
+20798,43.7024246 10.4346561,2014-06-06 05:56:23,320,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Motociclo,1694.98649417541,235
+20802,43.7083827 10.4155748,2014-06-06 11:04:32,695,Friday   ,Verso casa,Motociclo,5893.803456585287,235
+20804,43.6972966 10.444315,2014-06-06 12:23:54,717,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,5700.3352427953205,235
+20806,43.7191894 10.4302485,2014-06-06 12:37:00,353,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Motociclo,2045.473542532292,235
+20808,43.7083827 10.4155748,2014-06-06 14:13:50,971,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Motociclo,6085.775938266577,235
+21522,43.7237859 10.4176924,2014-06-06 14:32:48,1025,Friday   ,Verso casa,Motociclo,11771.381122260991,235
+21538,43.6970777 10.4411199,2014-06-07 21:27:44,554,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,1462.4030169747011,235
+21540,43.6970777 10.4411199,2014-06-07 21:43:44,355,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,794.9059506818057,235
+21542,43.6972957 10.4443322,2014-06-07 21:58:13,781,Saturday ,Verso casa,Motociclo,1560.5004862070912,235
+21544,43.6969097 10.442692,2014-06-07 22:15:26,131,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,723.0983792537013,235
+21546,43.6965237 10.4410519,2014-06-07 22:36:25,294,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,277.99929222526623,235
+21548,43.6972957 10.4443322,2014-06-07 22:54:13,182,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,520.1668287356971,235
+21524,43.6887065 10.4397071,2014-06-08 07:29:07,1342,Sunday   ,"Svago (sport, escursioni, musei,...)",Motociclo,20133.851122078457,235
+21526,43.8957773 10.2253788,2014-06-08 08:04:01,185,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,1101.0240587624617,235
+21528,43.6763684 10.2981883,2014-06-08 08:30:08,360,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,20272.039247153465,235
+21530,43.6763684 10.2981883,2014-06-08 08:41:09,1398,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,13959.523924382343,235
+21532,43.695349 10.3562342,2014-06-08 09:06:30,1668,Sunday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,11480.327083546825,235
+21534,43.7250503 10.4278066,2014-06-08 09:35:23,3622,Sunday   ,Verso casa,Motociclo,24286.46670733907,235
+21922,43.6972957 10.4443322,2014-06-08 10:37:50,656,Sunday   ,Unknown,Unknown,1081.961989736501,235
+21932,43.696906 10.4426989,2014-06-09 05:37:20,1157,Monday   ,Al lavoro,Motociclo,6144.951977326688,235
+21924,43.7086776 10.4153811,2014-06-09 10:48:21,868,Monday   ,Verso casa,Motociclo,17158.88930195308,235
+21926,43.69729 10.4443498,2014-06-09 11:10:25,368,Monday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,2845.8623355667214,235
+21928,43.696522 10.441048,2014-06-09 11:19:20,1752,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,14979.798842398188,235
+22014,43.6885033 10.4403338,2014-06-09 11:55:07,366,Monday   ,Al lavoro,Motociclo,4096.869338522998,235
+22016,43.7086698 10.4154565,2014-06-09 16:00:14,501,Monday   ,Verso casa,Motociclo,4863.99924098778,235
+22018,43.69729 10.4443498,2014-06-09 16:14:33,126,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,400.0991832158255,235
+22592,43.719491 10.4328992,2014-06-10 12:58:03,1728,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,7539.431395941073,235
+22574,43.6971343 10.4419306,2014-06-10 18:53:12,1090,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Motociclo,10177.893557218937,235
+22576,43.7018566 10.386002,2014-06-10 19:21:58,1850,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Motociclo,20307.237694404663,235
+22578,43.709827 10.3987044,2014-06-10 20:02:15,749,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Motociclo,6898.917339295352,235
+22580,43.7015784 10.386195,2014-06-10 20:17:38,370,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2803.9790337132745,235
+22582,43.7013123 10.3871235,2014-06-10 20:29:13,506,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2662.325419032672,235
+22584,43.7013123 10.3871235,2014-06-10 20:43:04,313,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2711.6089714481395,235
+22586,43.7018566 10.386002,2014-06-10 20:50:19,581,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,4061.0433620317326,235
+22588,43.7099709 10.398463,2014-06-10 21:02:46,485,Tuesday  ,Prendere o lasciare qualcuno,Motociclo,2010.277355992708,235
+22590,43.7136067 10.3823937,2014-06-10 21:15:26,1299,Tuesday  ,Verso casa,Motociclo,15125.26807726416,235
+23044,43.6972993 10.4444172,2014-06-11 05:41:52,867,Wednesday,Al lavoro,Motociclo,6526.559014140428,235
+23046,43.7052956 10.4250045,2014-06-11 15:58:52,121,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,868.8212496800877,235
+23048,43.7086767 10.4153817,2014-06-11 16:06:23,1373,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,8652.101322397535,235
+23050,43.7160947 10.414071,2014-06-11 16:30:32,247,Wednesday,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,315.33782158535473,235
+23052,43.7157257 10.4157586,2014-06-11 16:54:52,1563,Wednesday,Verso casa,Motociclo,7647.616199103333,235
+23402,43.6965166 10.4410587,2014-06-12 05:39:18,668,Thursday ,Al lavoro,Motociclo,2980.300874328712,235
+23398,43.7083892 10.4156028,2014-06-12 16:15:47,302,Thursday ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,2086.1454076443206,235
+23738,43.7136989 10.4309359,2014-06-12 16:43:02,1574,Thursday ,Unknown,Unknown,9671.110922419308,235
+23740,43.6965163 10.4410578,2014-06-13 05:41:11,185,Friday   ,Al lavoro,Motociclo,280.2294970587378,235
+23932,43.6972772 10.4443688,2014-06-13 05:49:14,419,Friday   ,Al lavoro,Motociclo,3533.7639852579287,235
+23934,43.7083883 10.4156063,2014-06-13 11:14:11,2383,Friday   ,Verso casa,Motociclo,7863.54613221198,235
+23936,43.6972772 10.4443688,2014-06-13 11:58:48,1135,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2216.659791053975,235
+23938,43.6972772 10.4443688,2014-06-13 12:21:59,720,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1415.827598695772,235
+23940,43.6967953 10.441799,2014-06-13 12:44:04,228,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,561.2599874436811,235
+23942,43.6972772 10.4443688,2014-06-13 12:52:07,1882,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,3226.679425554979,235
+23944,43.6972772 10.4443688,2014-06-13 13:25:33,252,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,559.9591668320227,235
+23946,43.6972772 10.4443688,2014-06-13 13:40:35,243,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,486.8758478282402,235
+23948,43.6967953 10.441799,2014-06-13 13:49:18,1176,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,11988.114981691877,235
+23950,43.7157601 10.3995689,2014-06-13 14:18:50,863,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Motociclo,5423.182582440225,235
+23952,43.7237613 10.4176781,2014-06-13 14:36:00,783,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Autobus/mezzi urbani,5766.77647017815,235
+23954,43.7237613 10.4176781,2014-06-13 14:54:38,1116,Friday   ,Verso casa,Autobus/mezzi urbani,8215.335630046895,235
+23956,43.6972772 10.4443688,2014-06-13 15:16:51,364,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,1119.9183336640451,235
+23958,43.6970362 10.4430839,2014-06-13 15:25:25,1000,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,6572.412094936008,235
+23960,43.675087 10.4789405,2014-06-13 15:47:58,330,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,1061.251155167377,235
+23962,43.6726995 10.4924003,2014-06-13 16:16:26,243,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,1117.397687604874,235
+23964,43.6761169 10.4570669,2014-06-13 16:27:26,477,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Autobus/mezzi urbani,2801.388061132175,235
+23966,43.675087 10.4789405,2014-06-13 16:38:15,248,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,2618.806252891533,235
+23968,43.6744122 10.4788015,2014-06-13 16:45:16,305,Friday   ,"Shopping (abbigliamento, calzature, mobili...)",Autobus/mezzi urbani,3556.991396746634,235
+23970,43.675087 10.4789405,2014-06-13 16:54:27,250,Friday   ,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,2319.386809350471,235
+23972,43.675087 10.4789405,2014-06-13 17:01:09,1668,Friday   ,Verso casa,Motociclo,8998.299705619207,235
+23974,43.6972772 10.4443688,2014-06-13 17:30:59,476,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,840.1886638907605,235
+24188,43.696794 10.4418013,2014-06-14 12:02:40,1235,Saturday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,6878.810384646891,235
+24190,43.6962853 10.3937305,2014-06-14 12:49:59,377,Saturday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,1520.4881621754237,235
+24192,43.6919761 10.3809653,2014-06-14 13:05:49,391,Saturday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,2724.8245655684964,235
+24194,43.7036574 10.3861057,2014-06-14 14:06:08,205,Saturday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,278.9946154819414,235
+24196,43.7018785 10.3860263,2014-06-14 14:14:59,827,Saturday ,Unknown,Automobile,3509.959908118168,235
+24198,43.7018785 10.3860263,2014-06-14 14:30:35,867,Saturday ,Verso casa,Automobile,12190.67413844266,235
+24200,43.6972789 10.4443556,2014-06-14 14:46:02,293,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,561.5696625236008,235
+24202,43.6972789 10.4443556,2014-06-14 14:54:43,234,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,562.9319926785993,235
+24204,43.6972789 10.4443556,2014-06-14 15:02:27,188,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,561.5696625236008,235
+24772,43.6972789 10.4443556,2014-06-14 15:17:25,253,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,638.525246532043,235
+24936,43.6972787 10.4443699,2014-06-16 05:36:04,1178,Monday   ,Al lavoro,Automobile,4765.255406156473,235
+24938,43.7083606 10.4156148,2014-06-16 05:57:43,337,Monday   ,Al lavoro,Automobile,1658.6851028853816,235
+24940,43.7086568 10.4154781,2014-06-16 12:29:51,315,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,888.2528287977319,235
+24954,43.7084816 10.4156,2014-06-16 12:38:11,570,Monday   ,Verso casa,Automobile,5636.849791213248,235
+24956,43.6972693 10.4443713,2014-06-16 15:22:50,3103,Monday   ,Rifornimento carburante,Automobile,20464.15907020418,235
+24958,43.7253592 10.426502,2014-06-16 16:18:10,1174,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,4278.958513395492,235
+24960,43.7257269 10.4252326,2014-06-16 16:44:44,2110,Monday   ,Verso casa,Automobile,15797.0645432893,235
+24962,43.6972693 10.4443713,2014-06-16 17:27:25,166,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,329.6991462603426,235
+25184,43.6967575 10.4421495,2014-06-17 07:55:07,3361,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,52249.0767762531,235
+25186,43.5492383 10.7075795,2014-06-17 08:58:26,270,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,2141.771837678083,235
+25188,43.5554271 10.7092653,2014-06-17 09:07:35,970,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,8027.944810247762,235
+25190,43.5431275 10.7054186,2014-06-17 09:33:56,551,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,6314.403314740215,235
+25192,43.5431275 10.7054186,2014-06-17 09:46:08,371,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,2823.0457893814046,235
+25194,43.5431275 10.7054186,2014-06-17 09:54:25,306,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,2829.118419537769,235
+25196,43.5431275 10.7054186,2014-06-17 10:00:47,1750,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,39020.20704255314,235
+25198,43.6750932 10.4789282,2014-06-17 10:38:55,776,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,8505.909203673633,235
+25200,43.72375 10.4176808,2014-06-17 11:46:59,807,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,5543.698839278382,235
+25778,43.7184275 10.4283023,2014-06-17 12:05:26,1593,Tuesday  ,Verso casa,Automobile,6974.773456342955,235
+25796,43.6972705 10.4443772,2014-06-18 05:46:31,379,Wednesday,Al lavoro,Motociclo,3555.043357735054,235
+25782,43.7084835 10.4156012,2014-06-18 10:50:25,3971,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,14081.190714754202,235
+25784,43.7083596 10.4156196,2014-06-18 16:19:15,364,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,3658.3023501678,235
+25786,43.7237491 10.4176787,2014-06-18 16:29:12,691,Wednesday,"Shopping (supermercato, fornaio, macellaio,...)",Motociclo,3177.9294258019168,235
+25788,43.7237491 10.4176787,2014-06-18 16:42:37,1157,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,10674.153276460644,235
+25790,43.6750819 10.4789242,2014-06-18 17:10:15,680,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,4783.347433023096,235
+25792,43.6967771 10.4418065,2014-06-18 17:27:12,1283,Wednesday,Verso casa,Motociclo,2688.300586129583,235
+26144,43.6968856 10.4427075,2014-06-18 17:52:09,1298,Wednesday,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2466.768261655761,235
+26770,43.6972624 10.4444114,2014-06-21 17:14:41,303,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,431.1427576406786,235
+26772,43.6972624 10.4444114,2014-06-21 17:22:44,304,Saturday ,Al lavoro,Piedi,543.9406758205023,235
+27040,43.6972624 10.4444114,2014-06-21 18:02:52,240,Saturday ,Verso casa,Piedi,566.5178022194467,235
+27528,43.6972595 10.4444264,2014-06-23 05:26:51,811,Monday   ,Al lavoro,Automobile,4912.290700531833,235
+27530,43.7083563 10.4156725,2014-06-23 16:05:44,1697,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,9324.372256753328,235
+27532,43.7237281 10.4176615,2014-06-23 16:37:55,415,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,2426.867926943012,235
+27534,43.7259229 10.4249332,2014-06-23 16:50:46,423,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,1854.111781486304,235
+27536,43.7249715 10.4277602,2014-06-23 16:59:33,370,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,2473.387049525056,235
+27538,43.7252353 10.4261426,2014-06-23 17:10:43,423,Monday   ,Verso casa,Automobile,844.0875456643498,235
+28096,43.7237281 10.4176615,2014-06-23 17:19:50,1409,Monday   ,Verso casa,Automobile,11028.846921007344,235
+28736,43.6968954 10.4427786,2014-06-26 05:21:56,317,Thursday ,Al lavoro,Motociclo,938.2022132737012,235
+28926,43.6938428 10.356791,2014-06-26 19:49:36,182,Thursday ,"Svago (sport, escursioni, musei,...)",Automobile,2111.0573554702232,235
+28928,43.6772262 10.3451004,2014-06-26 19:56:27,312,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,6847.720485419732,235
+28930,43.6763246 10.2983055,2014-06-26 20:03:41,535,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,6485.673792108286,235
+28932,43.6763246 10.2983055,2014-06-26 20:16:47,443,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,6196.561576475324,235
+28934,43.6763246 10.2983055,2014-06-26 21:39:48,443,Thursday ,Verso casa,Automobile,6845.9774965186425,235
+29318,43.6972685 10.4445301,2014-06-28 05:41:30,755,Saturday ,Al lavoro,Automobile,5831.9959487854085,235
+29320,43.7083632 10.4156864,2014-06-28 09:01:06,622,Saturday ,Rifornimento carburante,Automobile,2906.1858383446006,235
+30476,43.7079177 10.4400102,2014-06-28 09:16:40,1431,Saturday ,Verso casa,Automobile,7344.982241109219,235
+30818,43.6763028 10.298337,2014-07-01 05:07:11,860,Tuesday  ,Al lavoro,Motociclo,13046.29333678692,235
+30820,43.7024502 10.4344884,2014-07-01 15:55:14,371,Tuesday  ,Verso casa,Motociclo,2928.109872634356,235
+30822,43.696509 10.4410232,2014-07-01 16:05:57,500,Tuesday  ,Verso casa,Motociclo,3530.9759660413747,235
+30824,43.6972771 10.4445757,2014-07-01 16:18:44,243,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,449.8702576488682,235
+30826,43.6972771 10.4445757,2014-07-01 16:28:10,505,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,748.4977677021,235
+30828,43.6972771 10.4445757,2014-07-01 16:44:58,1509,Tuesday  ,Verso casa,Motociclo,11631.236497313095,235
+33192,43.6762735 10.2983805,2014-07-04 05:32:14,227,Friday   ,Al lavoro,Motociclo,3073.730229577322,235
+33194,43.6972643 10.4445985,2014-07-04 11:24:06,1533,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Unknown,2703.1937057577084,235
+33196,43.6970369 10.4432382,2014-07-04 11:50:40,2046,Friday   ,Al lavoro,Automobile,8539.296887010521,235
+33198,43.7018203 10.385994,2014-07-04 12:31:25,691,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,5779.516586906198,235
+33200,43.7018203 10.385994,2014-07-04 12:43:57,1491,Friday   ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,12976.013247702162,235
+33202,43.7018203 10.385994,2014-07-04 14:01:24,366,Friday   ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,622.5500974940753,235
+33956,43.6762231 10.2984809,2014-07-14 05:22:08,1418,Monday   ,Al lavoro,Automobile,18773.92023883756,235
+33960,43.7023644 10.4344298,2014-07-14 05:49:47,365,Monday   ,Al lavoro,Automobile,1698.561860978336,235
+33964,43.7083705 10.4157315,2014-07-14 16:51:50,2396,Monday   ,Verso casa,Automobile,28347.34480753332,235
+37910,43.6775267 10.2807888,2014-07-16 05:10:35,1449,Wednesday,Verso casa,Automobile,16600.42093682109,235
+37912,43.6972722 10.4447219,2014-07-16 05:37:44,662,Wednesday,Al lavoro,Automobile,1185.962644144263,235
+37916,43.6972722 10.4447219,2014-07-16 05:50:46,500,Wednesday,Al lavoro,Bici,3684.9667968832855,235

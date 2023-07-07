@@ -1,0 +1,7 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+17166,43.724398934045944 10.390914462533914,2014-05-29 06:29:45,370,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,488.6596083686725,672
+17154,43.724034722177464 10.39110879564925,2014-05-29 18:26:33,941,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1422.7974995649556,672
+17158,43.71670422431321 10.396834122522339,2014-05-29 18:43:14,729,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,1618.7179337058335,672
+17828,43.70918843508101 10.39872851370265,2014-06-05 11:45:59,365,Thursday ,Rifornimento carburante,Automobile,1949.58245323689,672
+17832,43.698112199391375 10.413935327979189,2014-06-05 11:54:09,726,Thursday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,4101.056641611503,672
+21354,43.70840286328841 10.385178749831482,2014-06-05 12:24:52,768,Thursday ,Verso casa,Automobile,2645.597298415508,672

@@ -1,0 +1,4 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+14300,43.716866 10.394225,2014-05-28 15:22:16,703,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Piedi,915.492191949148,99
+14302,43.713295 10.399816,2014-05-28 15:44:39,314,Wednesday,Verso casa,Piedi,466.9087193600865,99
+17350,43.710099 10.385636,2014-05-28 16:05:28,2502,Wednesday,Verso casa,Autobus/mezzi urbani,22863.10193419852,99

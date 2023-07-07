@@ -1,0 +1,55 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+15488,43.683285 10.359441,2014-05-30 09:20:24,433,Friday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,4108.404351252125,209
+15492,43.708232 10.384892,2014-05-30 09:59:03,374,Friday   ,Verso casa,Automobile,4054.792799743743,209
+15494,43.68928 10.366909,2014-05-30 18:08:41,454,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Motociclo,4492.6220044690735,209
+15712,43.710738 10.398083,2014-05-30 18:18:12,534,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,717.3839554030418,209
+15714,43.61195 10.290943,2014-05-31 08:23:55,1722,Saturday ,Prendere o lasciare qualcuno,Automobile,18042.69120604973,209
+15718,43.710236 10.400583,2014-05-31 09:16:21,1477,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,18171.89557470252,209
+15724,43.614649 10.291135,2014-05-31 14:34:46,761,Saturday ,Prendere o lasciare qualcuno,Automobile,10140.856514099536,209
+15726,43.680005 10.346289,2014-05-31 14:52:12,199,Saturday ,Verso casa,Automobile,1178.6270369858305,209
+15720,43.682921 10.35931,2014-05-31 15:58:36,2410,Saturday ,Prendere o lasciare qualcuno,Automobile,16100.635858347136,209
+15822,43.753772 10.458553,2014-05-31 16:54:00,1656,Saturday ,Verso casa,Automobile,14710.438019326886,209
+15826,43.682952 10.35925,2014-05-31 19:20:06,101,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,958.520986003514,209
+16062,43.689502 10.367162,2014-05-31 21:32:29,100,Saturday ,Verso casa,Automobile,1021.3105473488096,209
+16064,43.689173 10.367024,2014-06-01 12:57:00,993,Sunday   ,"Svago (sport, escursioni, musei,...)",Motociclo,13172.646287749958,209
+16068,43.605286 10.29252,2014-06-01 13:16:18,472,Sunday   ,"Svago (sport, escursioni, musei,...)",Piedi,321.70884127912103,209
+16070,43.605342 10.29244,2014-06-01 15:28:25,1348,Sunday   ,"Shopping (abbigliamento, calzature, mobili...)",Motociclo,11245.2034285172,209
+16072,43.680196 10.349284,2014-06-01 16:05:36,490,Sunday   ,Prendere o lasciare qualcuno,Motociclo,2924.2684991321867,209
+16662,43.689123 10.366912,2014-06-01 16:25:53,91,Sunday   ,Verso casa,Motociclo,946.4349799669972,209
+16664,43.707494 10.382567,2014-06-03 08:23:25,849,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,3090.222505617308,209
+16666,43.711045 10.39957,2014-06-03 09:17:27,631,Tuesday  ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Piedi,860.2469338881299,209
+17528,43.716379 10.401983,2014-06-03 09:34:10,998,Tuesday  ,Verso casa,Automobile,7088.514444556641,209
+17530,43.683006 10.359062,2014-06-04 17:57:58,853,Wednesday,Prendere o lasciare qualcuno,Automobile,7522.015361864837,209
+17534,43.694903 10.446442,2014-06-04 18:29:00,594,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,6514.216607629599,209
+17536,43.682495 10.522147,2014-06-04 21:54:40,967,Wednesday,Prendere o lasciare qualcuno,Automobile,10359.60865548444,209
+17790,43.698943 10.412583,2014-06-04 22:16:39,924,Wednesday,Verso casa,Automobile,7953.460119524767,209
+17792,43.683347 10.359445,2014-06-05 04:48:02,103,Thursday ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,1041.5063206928671,209
+17796,43.687325 10.368941,2014-06-05 04:53:11,1309,Thursday ,"Svago (sport, escursioni, musei,...)",Automobile,22815.655828125648,209
+17798,43.560694 10.423381,2014-06-05 05:25:08,1363,Thursday ,"Svago (sport, escursioni, musei,...)",Piedi,1368.5803129226738,209
+17800,43.557352 10.415905,2014-06-05 06:07:16,509,Thursday ,"Svago (sport, escursioni, musei,...)",Piedi,493.6119442716648,209
+17802,43.556674 10.420102,2014-06-05 06:40:18,1521,Thursday ,"Svago (sport, escursioni, musei,...)",Piedi,1222.7930599363044,209
+17804,43.560292 10.424025,2014-06-05 07:31:08,1775,Thursday ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,22675.412359305068,209
+17866,43.686848 10.3695,2014-06-05 08:29:01,170,Thursday ,Verso casa,Automobile,1172.8814941266162,209
+17870,43.683219 10.359168,2014-06-05 12:21:29,730,Thursday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,6287.003739496011,209
+20402,43.69377 10.383611,2014-06-05 14:58:24,928,Thursday ,Verso casa,Automobile,6728.901848810166,209
+20404,43.682958 10.359137,2014-06-05 16:22:30,1048,Thursday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,6681.758868004939,209
+20408,43.710686 10.40014,2014-06-05 16:44:16,403,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,2093.2313695045914,209
+20412,43.718651 10.390937,2014-06-05 17:18:32,590,Thursday ,Verso casa,Automobile,5860.728067472313,209
+20672,43.682904 10.35942,2014-06-05 19:02:38,237,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,1806.7858703195377,209
+20674,43.683089 10.359222,2014-06-06 12:18:37,159,Friday   ,Prendere o lasciare qualcuno,Motociclo,936.9657796823388,209
+20678,43.689089 10.366874,2014-06-06 12:32:24,1381,Friday   ,"Svago (sport, escursioni, musei,...)",Motociclo,13444.772431892852,209
+20964,43.604431 10.291268,2014-06-06 15:27:59,1391,Friday   ,Verso casa,Motociclo,14431.015138783476,209
+20976,43.683095 10.359059,2014-06-06 19:10:52,252,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,989.2550540048212,209
+20968,43.682984 10.359165,2014-06-07 08:51:59,614,Saturday ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,5511.4141833615495,209
+20970,43.714703 10.395558,2014-06-07 09:05:13,411,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,491.5807038801551,209
+21034,43.714409 10.401446,2014-06-07 09:35:40,1073,Saturday ,Verso casa,Automobile,6008.1530247173005,209
+21038,43.682873 10.359338,2014-06-07 15:38:43,1397,Saturday ,"Svago (sport, escursioni, musei,...)",Bici,5953.124060180104,209
+21040,43.715388 10.400057,2014-06-07 17:15:03,1275,Saturday ,Prendere o lasciare qualcuno,Bici,4827.875838391355,209
+21956,43.689094 10.367024,2014-06-07 17:41:47,241,Saturday ,Verso casa,Bici,960.3568446403484,209
+21960,43.683105 10.35918,2014-06-09 08:38:16,1387,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,16817.78555760764,209
+21964,43.674804 10.47508,2014-06-09 10:11:41,947,Monday   ,Verso casa,Automobile,16441.437505292884,209
+22926,43.682855 10.359377,2014-06-09 13:26:09,278,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,946.9341953109208,209
+24008,43.684197 10.36034,2014-06-12 07:26:07,1204,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Motociclo,6007.757997343368,209
+24010,43.717337 10.383738,2014-06-12 07:59:29,1344,Thursday ,Verso casa,Automobile,15206.463758468444,209
+24004,43.683113 10.359597,2014-06-12 09:02:08,730,Thursday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,6830.771280463434,209
+24006,43.682874 10.359184,2014-06-12 14:17:10,273,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,1051.9241576974464,209

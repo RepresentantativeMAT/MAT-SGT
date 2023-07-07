@@ -1,0 +1,34 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+14020,43.710865 10.384639,2014-05-27 14:13:39,1272,Tuesday  ,Prendere o lasciare qualcuno,Automobile,19174.441913052528,378
+14024,43.55351 10.335606,2014-05-27 14:37:39,458,Tuesday  ,"Svago (sport, escursioni, musei,...)",Motociclo,1951.2401082957103,378
+14028,43.556813 10.319493,2014-05-27 16:35:57,305,Tuesday  ,Verso casa,Motociclo,1014.4066327686982,378
+14032,43.561744 10.32801,2014-05-28 04:57:36,410,Wednesday,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Motociclo,1971.960444768452,378
+14038,43.554216 10.336686,2014-05-28 05:09:07,2130,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,20716.712693351696,378
+14352,43.718224 10.389774,2014-05-28 06:33:29,417,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,477.1968116620621,378
+14356,43.720725 10.388433,2014-05-28 10:47:22,404,Wednesday,Verso casa,Piedi,378.8597217779574,378
+14362,43.71794 10.390215,2014-05-28 14:08:49,1890,Wednesday,Prendere o lasciare qualcuno,Automobile,22347.479919483147,378
+15886,43.557283 10.319323,2014-05-28 16:24:59,300,Wednesday,Verso casa,Motociclo,1458.2323908019407,378
+16868,43.561934 10.320168,2014-06-02 13:03:33,640,Monday   ,Verso casa,Piedi,824.0984891058738,378
+43400,43.561668 10.328218,2014-06-02 14:01:05,248,Monday   ,Prendere o lasciare qualcuno,Motociclo,1065.7419596462023,378
+43402,43.561711 10.337038,2014-06-02 14:12:16,283,Monday   ,Verso casa,Motociclo,2255.252075010807,378
+43404,43.547766 10.338478,2014-06-02 14:23:29,262,Monday   ,Rifornimento carburante,Motociclo,1601.255767420844,378
+43408,43.547776 10.338535,2014-06-02 14:31:13,1949,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,23726.659216443102,378
+43410,43.717941 10.390215,2014-06-02 21:48:54,1512,Monday   ,Verso casa,Automobile,20446.88313024548,378
+43412,43.553588 10.333505,2014-06-02 22:39:54,523,Monday   ,Verso casa,Motociclo,3469.39385584569,378
+16870,43.56087722353966 10.33774056472847,2014-06-03 05:12:05,69,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Treno,1633.8135267068055,378
+16872,43.69689309042292 10.38937551901712,2014-06-03 05:22:40,170,Tuesday  ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Treno,1734.7533682315989,378
+43414,43.711651 10.397681,2014-06-03 05:36:13,767,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1202.8096203937089,378
+21300,43.559911 10.314991,2014-06-07 07:50:40,837,Saturday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,5003.509668860425,378
+21304,43.561655 10.3282,2014-06-07 20:23:49,1651,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,15211.03738005292,378
+21968,43.714826 10.393511,2014-06-07 23:06:47,1472,Saturday ,Verso casa,Automobile,19465.10575684356,378
+43416,43.561694 10.328155,2014-06-08 15:23:28,501,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1043.0309968078384,378
+43418,43.561633 10.318925,2014-06-08 16:03:10,1570,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Motociclo,20331.95847372557,378
+43420,43.723871 10.391893,2014-06-08 16:39:21,465,Sunday   ,Verso casa,Motociclo,2657.634021328496,378
+43422,43.723849 10.41654,2014-06-08 18:03:42,860,Sunday   ,Verso casa,Motociclo,4574.003008196175,378
+26070,43.718012 10.390082,2014-06-08 22:28:37,1742,Sunday   ,Verso casa,Automobile,20143.468080082428,378
+26094,43.542493 10.331106,2014-06-10 16:47:28,336,Tuesday  ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Motociclo,2288.7284027375817,378
+26098,43.551893 10.341003,2014-06-10 17:32:14,552,Tuesday  ,"Svago (sport, escursioni, musei,...)",Motociclo,6730.616681246761,378
+26100,43.593585 10.352055,2014-06-10 17:58:34,2348,Tuesday  ,Verso casa,Motociclo,35560.09857773472,378
+26114,43.561744 10.328008,2014-06-16 05:39:37,582,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Motociclo,1696.8023315151954,378
+26092,43.554255 10.337154,2014-06-16 05:53:15,1815,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,23308.74535720369,378
+26078,43.711656 10.384361,2014-06-16 13:38:27,1852,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,19300.63038524197,378

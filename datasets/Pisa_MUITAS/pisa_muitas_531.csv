@@ -1,0 +1,16 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+15236,43.8191118 10.6612295,2014-05-30 06:01:10,586,Friday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,5663.660819307357,531
+15238,43.83740202311229 10.505427962292769,2014-05-30 06:56:26,1774,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,21523.90029858892,531
+15240,43.719047217848654 10.389280613415009,2014-05-30 07:28:43,388,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,687.2301600230732,531
+23298,43.84079440515404 10.660032041542312,2014-06-12 10:24:22,2637,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,30500.132946329933,531
+23300,43.724175323403685 10.388150358417201,2014-06-12 11:09:23,607,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,818.5687968302743,531
+23302,43.718580108957084 10.389804747659637,2014-06-12 14:54:24,4064,Thursday ,Verso casa,Automobile,28041.520380771304,531
+37668,43.84255062515304 10.660918998483712,2014-07-31 06:08:50,2947,Thursday ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,32345.808767045783,531
+37670,43.72765108950903 10.389157439342112,2014-07-31 07:01:16,351,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,322.6092509493848,531
+37672,43.7238019 10.395819,2014-07-31 09:10:57,2544,Thursday ,Verso casa,Automobile,31599.868483277787,531
+40078,43.726668442430245 10.399014328387409,2014-08-19 06:56:27,550,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,2544.420845696737,531
+40080,43.71554247925689 10.394614433539314,2014-08-19 07:07:39,1893,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,3657.9375474826375,531
+41382,43.72245101635901 10.388649565032711,2014-08-19 08:16:05,320,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,331.9209164336144,531
+41384,43.8223542 10.6477103,2014-09-08 06:10:16,3735,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,32811.582406962094,531
+41386,43.7237077816659 10.388566365701918,2014-09-08 09:59:28,366,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1019.0226129446316,531
+41388,43.7258829 10.3920418,2014-09-08 10:10:36,2523,Monday   ,Verso casa,Automobile,41170.11247560976,531

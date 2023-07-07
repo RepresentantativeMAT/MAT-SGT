@@ -1,0 +1,44 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+12958,43.717189 10.382275,2014-05-20 07:41:16,245,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,874.3436435299749,291
+12960,43.717215 10.382286,2014-05-20 11:18:23,156,Tuesday  ,Al lavoro,Automobile,1389.9489772492782,291
+12962,43.710092 10.368182,2014-05-20 14:41:32,497,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,3508.10492531945,291
+12964,43.725045 10.390968,2014-05-20 17:44:27,537,Tuesday  ,Verso casa,Automobile,2688.8970342053008,291
+12966,43.717189 10.382275,2014-05-21 07:50:24,210,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,768.4535611219422,291
+12968,43.710092 10.368182,2014-05-21 18:01:13,172,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,812.1885495161538,291
+12970,43.713601 10.376991,2014-05-21 22:10:24,106,Wednesday,Verso casa,Automobile,814.0120967389632,291
+12972,43.717189 10.382275,2014-05-22 08:39:07,167,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,837.7571287039216,291
+12974,43.718699 10.389783,2014-05-22 11:06:00,339,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,397.06130916812816,291
+12976,43.710092 10.368182,2014-05-22 16:55:42,1241,Thursday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,4555.631788814013,291
+12978,43.728157 10.406189,2014-05-22 17:20:45,156,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,1232.6477077523914,291
+12980,43.729815 10.395725,2014-05-22 17:53:47,437,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,1431.8284620408958,291
+12982,43.722193 10.401549,2014-05-22 18:02:31,553,Thursday ,Verso casa,Automobile,3412.1290841035952,291
+12984,43.715372 10.37955,2014-05-23 07:56:44,196,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,377.63486110405,291
+12986,43.717401 10.382387,2014-05-23 08:01:28,531,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,1116.9600163539396,291
+12988,43.721276 10.388199,2014-05-23 10:59:59,378,Friday   ,Verso casa,Automobile,2079.618395660843,291
+12990,43.710092 10.368182,2014-05-23 14:21:12,760,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,4488.944076614702,291
+12992,43.701197 10.409606,2014-05-23 17:39:35,769,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,4364.130016310192,291
+12994,43.717391 10.400454,2014-05-23 23:17:33,223,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,163.9201393479197,291
+12996,43.727177 10.396765,2014-05-23 23:35:17,265,Friday   ,Prendere o lasciare qualcuno,Automobile,290.7918955921379,291
+12998,43.712348 10.373701,2014-05-24 10:16:19,46,Saturday ,Verso casa,Automobile,510.6321563239259,291
+13000,43.710092 10.368182,2014-05-24 13:45:48,560,Saturday ,Prendere o lasciare qualcuno,Automobile,3086.236450016439,291
+13002,43.712562 10.394568,2014-05-24 13:55:59,290,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,1494.7869415607474,291
+13004,43.703235 10.386388,2014-05-24 15:13:23,2059,Saturday ,"Svago (sport, escursioni, musei,...)",Automobile,17190.27697453,291
+13006,43.746149 10.43099,2014-05-24 15:57:47,1576,Saturday ,"Svago (sport, escursioni, musei,...)",Automobile,11099.014038144996,291
+13008,43.724261 10.386181,2014-05-24 17:50:25,688,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,2563.1710699135,291
+13010,43.716646 10.402485,2014-05-24 18:15:59,374,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,454.6734437747814,291
+13012,43.71037 10.368786,2014-05-24 18:41:14,895,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,3581.8473841989435,291
+13014,43.716701 10.382034,2014-05-25 09:46:29,818,Sunday   ,"Svago (sport, escursioni, musei,...)",Automobile,6762.627281218325,291
+13016,43.722912 10.378738,2014-05-25 10:58:13,359,Sunday   ,Verso casa,Automobile,1961.7996932175108,291
+13018,43.710092 10.368182,2014-05-25 17:25:43,379,Sunday   ,Prendere o lasciare qualcuno,Automobile,5166.455979958298,291
+13020,43.684231 10.346084,2014-05-25 17:48:32,337,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,4145.909405405572,291
+13022,43.71205 10.374672,2014-05-25 18:04:24,1440,Sunday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,7717.665381505083,291
+13024,43.708403 10.405118,2014-05-25 20:18:20,662,Sunday   ,Prendere o lasciare qualcuno,Automobile,3584.4157077136147,291
+13026,43.725324 10.402797,2014-05-25 20:30:45,1770,Sunday   ,Prendere o lasciare qualcuno,Automobile,9470.297536769558,291
+13028,43.677915 10.350473,2014-05-25 21:01:55,800,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,8589.38821109135,291
+13030,43.627561 10.291661,2014-05-25 21:44:18,1130,Sunday   ,Prendere o lasciare qualcuno,Automobile,16517.956963426677,291
+12932,43.725478 10.402513,2014-05-25 22:10:12,407,Sunday   ,Verso casa,Automobile,4082.935791108804,291
+12934,43.717248 10.382358,2014-05-26 09:48:31,463,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,2101.971659756834,291
+12936,43.726842 10.390656,2014-05-26 11:19:51,467,Monday   ,Verso casa,Automobile,2696.987925781901,291
+12938,43.710092 10.368182,2014-05-26 15:01:35,848,Monday   ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,9653.870503599868,291
+12940,43.673972 10.47435,2014-05-26 16:56:11,536,Monday   ,Rifornimento carburante,Automobile,2813.7828598504034,291
+12942,43.70725 10.385747,2014-05-26 17:13:17,255,Monday   ,Verso casa,Automobile,1881.369780331878,291

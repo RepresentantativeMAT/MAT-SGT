@@ -5,6 +5,7 @@
  */
 package br.ufsc.model;
 
+import br.ufsc.util.Util;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

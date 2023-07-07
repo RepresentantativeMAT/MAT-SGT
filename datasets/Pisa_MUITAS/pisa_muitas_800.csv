@@ -1,0 +1,45 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+27550,42.92575599999999 10.529024,2014-06-23 16:11:46,757,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Automobile,3813.864998485514,800
+27554,42.93955200000001 10.519151,2014-06-23 16:28:35,493,Monday   ,Verso casa,Automobile,1779.7125438195687,800
+28120,42.931265 10.519774,2014-06-23 18:44:50,3068,Monday   ,"Svago (sport, escursioni, musei,...)",Piedi,9151.317969298472,800
+28124,42.92867955290054 10.52168729716029,2014-06-24 07:17:18,512,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,784.8298646553202,800
+28128,42.92483900000001 10.528289,2014-06-24 07:43:23,271,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Piedi,240.7563487901217,800
+28130,42.923509 10.526725,2014-06-24 08:01:42,598,Tuesday  ,Verso casa,Piedi,798.5140175191013,800
+28134,42.9284 10.524702,2014-06-24 08:13:44,491,Tuesday  ,Verso casa,Piedi,661.532326774733,800
+28138,43.017844 10.585191,2014-06-24 15:29:50,5055,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,89113.50870776521,800
+28564,43.70439700000001 10.400946,2014-06-24 16:56:02,1350,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,2203.0218539982384,800
+28566,43.704843 10.400286,2014-06-25 05:32:27,481,Wednesday,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Piedi,735.4030455232721,800
+28570,43.708818 10.399363,2014-06-25 05:45:48,1471,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Autobus/mezzi urbani,5698.094505137481,800
+28574,43.72007 10.407768,2014-06-25 09:42:39,475,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,660.2725895615538,800
+28578,43.720611 10.400204,2014-06-25 10:02:07,1654,Wednesday,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Piedi,2360.9718215952144,800
+28580,43.678153 10.403853,2014-06-25 12:17:03,4517,Wednesday,Verso casa,Treno,85013.43837852837,800
+28756,43.017503 10.586024,2014-06-25 13:35:58,1116,Wednesday,Verso casa,Automobile,13617.463615648852,800
+30892,42.93125200000001 10.519046,2014-06-30 09:41:13,1015,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1565.9441936046212,800
+30894,42.921698 10.526207,2014-06-30 10:14:04,636,Monday   ,Verso casa,Piedi,1083.8548288923907,800
+30898,42.928822 10.52054,2014-06-30 10:30:23,248,Monday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,370.2637572985666,800
+30902,42.92376900000001 10.529021,2014-06-30 16:33:30,493,Monday   ,Verso casa,Automobile,2005.3252918849496,800
+30906,42.93144599999999 10.519501,2014-06-30 17:00:06,1362,Monday   ,"Svago (sport, escursioni, musei,...)",Piedi,3941.050410239181,800
+33136,42.931096 10.520167,2014-07-10 06:28:09,1046,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,1533.016899409098,800
+33138,42.948827 10.540919,2014-07-10 07:34:22,710,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,10347.083061381254,800
+33140,43.01769599999999 10.585478,2014-07-10 07:58:18,4010,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,68588.20436991233,800
+33142,43.554976 10.336893,2014-07-10 09:12:48,1077,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,18909.72735880476,800
+33146,43.70910099999999 10.398816,2014-07-10 09:36:35,476,Thursday ,Verso casa,Piedi,687.9624323885403,800
+33150,43.70605 10.402208,2014-07-11 07:22:17,1391,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,2380.150708550645,800
+33152,43.720013 10.407495,2014-07-11 11:09:31,1475,Friday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Piedi,2517.5483880345246,800
+33166,43.70440799999999 10.401104,2014-07-11 11:41:45,486,Friday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Piedi,779.0679678423472,800
+33168,43.70661700000001 10.402294,2014-07-11 12:14:31,4538,Friday   ,Verso casa,Treno,88689.38211228521,800
+33542,43.017903 10.585107,2014-07-11 13:36:53,2044,Friday   ,Verso casa,Automobile,15124.216527601977,800
+33554,43.704897 10.401006,2014-07-14 05:25:14,1746,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Autobus/mezzi urbani,6438.706280332619,800
+33556,43.71995099999999 10.407473,2014-07-14 09:16:40,627,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Autobus/mezzi urbani,3225.214036496508,800
+33560,43.707809 10.40076,2014-07-14 09:47:10,961,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Treno,20309.062772256748,800
+33562,43.55446300000001 10.336526,2014-07-14 10:04:09,2950,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Treno,68695.52241738478,800
+33598,43.005138 10.589566,2014-07-14 11:12:11,796,Monday   ,Verso casa,Automobile,11631.64297622927,800
+33602,42.93151400000001 10.520195,2014-07-14 18:19:38,1077,Monday   ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Automobile,14755.85026611272,800
+33868,43.018066 10.584841,2014-07-14 19:13:24,4400,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Treno,89701.1436957139,800
+33872,43.705865 10.402296,2014-07-15 05:56:20,1437,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,2373.832589332937,800
+33876,43.719972 10.407297,2014-07-15 09:30:25,452,Tuesday  ,Prendere o lasciare qualcuno,Piedi,620.4101083917187,800
+33880,43.719743 10.40012,2014-07-15 09:38:55,1009,Tuesday  ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Piedi,1409.4114743276557,800
+33882,43.70807799999999 10.398521,2014-07-15 10:12:21,4910,Tuesday  ,Verso casa,Treno,89304.75434525879,800
+34032,43.017387 10.586054,2014-07-15 11:40:04,1330,Tuesday  ,Verso casa,Treno,15353.331273732983,800
+34036,42.931809 10.519896,2014-07-15 17:16:22,871,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,1433.4862789486465,800
+34034,42.92142299999999 10.525454,2014-07-15 23:21:16,950,Tuesday  ,Verso casa,Piedi,1405.3610531895274,800

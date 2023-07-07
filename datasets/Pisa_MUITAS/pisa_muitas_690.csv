@@ -1,0 +1,216 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+18944,43.7163081 10.402111,2014-05-18 04:47:04,293,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,498.95710279229104,690
+18946,43.722474 10.3957073,2014-05-18 12:29:03,964,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1273.849198299676,690
+18948,43.7193071 10.4004602,2014-05-18 12:56:54,325,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,453.2182304827986,690
+18950,43.71403 10.4007121,2014-05-18 13:09:11,420,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,408.8258286805063,690
+18952,43.7106277 10.398957,2014-05-18 13:38:09,484,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,484.3354363703965,690
+18954,43.7163408 10.4022001,2014-05-18 13:54:13,660,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,748.96082491043,690
+18956,43.717825 10.4017704,2014-05-18 14:40:39,300,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,196.0828332887972,690
+18958,43.7153873 10.3931646,2014-05-18 18:47:15,531,Sunday   ,Verso casa,Bici,1730.4514265005346,690
+18960,43.7259395 10.4029163,2014-05-19 04:46:45,297,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,648.450976056492,690
+18962,43.7183482 10.4022292,2014-05-19 06:00:02,533,Monday   ,Prendere o lasciare qualcuno,Piedi,852.601412591653,690
+18964,43.7153897 10.3931528,2014-05-19 06:19:07,656,Monday   ,Verso casa,Bici,1602.1900902710552,690
+18966,43.7259743 10.4028467,2014-05-19 06:33:07,718,Monday   ,Prendere o lasciare qualcuno,Bici,1538.3677836505683,690
+18968,43.7181822 10.3897087,2014-05-19 07:48:20,1708,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,8039.768857315182,690
+18970,43.771745 10.3499497,2014-05-19 08:35:50,717,Monday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,694.5356724148223,690
+18972,43.819407 10.3576115,2014-05-19 09:14:48,577,Monday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,9503.201685311644,690
+18974,43.7285021 10.4154924,2014-05-19 10:05:10,153,Monday   ,"Svago (sport, escursioni, musei,...)",Bici,309.01078093826897,690
+18976,43.7276987 10.4075183,2014-05-19 11:06:15,358,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,992.3182807087064,690
+18978,43.7153379 10.3931754,2014-05-19 12:03:42,497,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1021.9872974586914,690
+18980,43.7176347 10.4023185,2014-05-19 14:39:58,954,Monday   ,Prendere o lasciare qualcuno,Bici,1201.9430315971008,690
+18982,43.7153669 10.3931723,2014-05-19 20:03:56,296,Monday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,431.7145722566803,690
+18984,43.7153379 10.3931007,2014-05-19 20:21:16,232,Monday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,2494.5031604669484,690
+18986,43.7208253 10.3886364,2014-05-20 02:20:58,258,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,358.6871445025908,690
+18988,43.7153669 10.3931723,2014-05-20 04:27:05,489,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Bici,809.2849959655687,690
+18990,43.7174982 10.402231,2014-05-20 05:35:56,574,Tuesday  ,"Svago (sport, escursioni, musei,...)",Bici,1214.3169704673096,690
+18992,43.7061518 10.4224529,2014-05-20 06:08:35,485,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Bici,691.2007313828574,690
+18994,43.7193229 10.387993,2014-05-20 06:43:06,203,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,1720.859333561593,690
+18996,43.7153669 10.3931723,2014-05-20 09:01:32,442,Tuesday  ,Verso casa,Bici,1524.3314035515257,690
+18998,43.7259189 10.4043021,2014-05-20 09:17:12,308,Tuesday  ,"Svago (sport, escursioni, musei,...)",Bici,792.9170129438563,690
+19000,43.7285021 10.4154924,2014-05-20 09:26:04,603,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,1047.5376791918036,690
+19002,43.7265789 10.410992,2014-05-20 10:37:39,611,Tuesday  ,Verso casa,Bici,1122.9734289288244,690
+19004,43.7279137 10.4057352,2014-05-20 11:30:45,203,Tuesday  ,"Spostamento errato (Errore GPS, mai stato li')",Bici,242.9227509302407,690
+19006,43.7152533 10.3944416,2014-05-21 04:50:04,439,Wednesday,"Spostamento errato (Errore GPS, mai stato li')",Piedi,536.897636372692,690
+19008,43.7167186 10.3946536,2014-05-21 05:52:47,271,Wednesday,"Servizi (dottore, banca, parrucchiere,...)",Bici,834.4972623497773,690
+19010,43.7153669 10.3931723,2014-05-21 07:06:03,232,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,497.308339091837,690
+19012,43.7247696 10.3912798,2014-05-21 07:15:17,387,Wednesday,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,2926.9487465865127,690
+19014,43.7561323 10.3641375,2014-05-21 07:25:41,828,Wednesday,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,13769.617693655277,690
+19016,43.7681424 10.338716,2014-05-21 07:51:42,270,Wednesday,"Servizi (dottore, banca, parrucchiere,...)",Bici,557.6436465958993,690
+19018,43.7704543 10.3521951,2014-05-21 08:17:22,1226,Wednesday,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,6075.862996892884,690
+19020,43.7553449 10.3605085,2014-05-21 09:03:02,1276,Wednesday,Verso casa,Bici,12499.89047539131,690
+19022,43.7223681 10.3963617,2014-05-21 09:27:18,480,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,363.14335100035214,690
+19024,43.7172058 10.4021906,2014-05-21 09:54:19,480,Wednesday,Prendere o lasciare qualcuno,Piedi,643.0626274187533,690
+19026,43.7153669 10.3931723,2014-05-21 12:13:17,690,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1100.6235801479372,690
+19028,43.7197381 10.4013929,2014-05-21 12:27:47,360,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,387.1871464880016,690
+19030,43.7177149 10.402294,2014-05-21 12:36:47,420,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1137.020122440813,690
+19032,43.7182958 10.4021364,2014-05-21 14:35:25,182,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,195.83493816059783,690
+19034,43.7150052 10.3937676,2014-05-22 04:58:29,330,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,820.1207387017923,690
+19036,43.71831 10.4021704,2014-05-22 05:56:13,872,Thursday ,Prendere o lasciare qualcuno,Bici,1230.3458950099653,690
+19038,43.556875 10.340823,2014-05-22 10:44:55,511,Thursday ,"Svago (sport, escursioni, musei,...)",Bici,1554.6340173712647,690
+19040,43.7260073 10.4028984,2014-05-23 04:58:42,327,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,658.6010321518138,690
+19042,43.7205471 10.4001254,2014-05-23 05:32:06,395,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,710.6318170755344,690
+19044,43.7239993 10.3917731,2014-05-23 05:57:27,422,Friday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,783.0384887540141,690
+19046,43.7260066 10.4028158,2014-05-24 04:44:47,366,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,659.3437671702834,690
+19048,43.7260232 10.4027232,2014-05-24 06:53:55,617,Saturday ,Prendere o lasciare qualcuno,Bici,1473.0705264983944,690
+19050,43.7153715 10.3931771,2014-05-24 17:54:50,496,Saturday ,Verso casa,Bici,1693.8134806927994,690
+19052,43.7260022 10.4028735,2014-05-25 04:58:30,365,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,687.5726144268125,690
+19054,43.7204985 10.4000826,2014-05-25 05:43:54,420,Sunday   ,Al lavoro,Bici,685.1172169374821,690
+19056,43.7258422 10.4027413,2014-05-25 06:44:25,840,Sunday   ,Prendere o lasciare qualcuno,Bici,1870.0754245588787,690
+19058,43.7148351 10.3937926,2014-05-25 07:45:01,681,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1465.9320096549218,690
+19060,43.7133686 10.4043831,2014-05-25 09:41:12,420,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,705.950210794076,690
+19062,43.7106349 10.3990727,2014-05-25 09:49:08,424,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,643.7797188912939,690
+19064,43.7161969 10.402227,2014-05-25 10:08:51,1428,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,2263.12864270366,690
+19066,43.7152578 10.3940751,2014-05-25 14:47:13,365,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,495.5918188063762,690
+19068,43.7158102 10.4013913,2014-05-25 14:59:14,744,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,478.4446786766781,690
+19070,43.7227199 10.3951539,2014-05-25 16:04:51,300,Sunday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,455.4013597325144,690
+19072,43.7223234 10.3965099,2014-05-25 16:19:51,301,Sunday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4125.779532342781,690
+19074,43.7190179 10.4006014,2014-05-25 16:33:48,476,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,438.926142076025,690
+19076,43.7156677 10.3997669,2014-05-25 17:01:18,419,Sunday   ,Prendere o lasciare qualcuno,Piedi,547.4276016134901,690
+19078,43.715528 10.39503,2014-05-26 05:05:07,245,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,717.168297147827,690
+19080,43.7206086 10.4001157,2014-05-26 05:42:59,1406,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,4652.404877147328,690
+19082,43.7470261 10.3666297,2014-05-26 06:09:26,425,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1580.5872777834777,690
+19084,43.7575831 10.353791,2014-05-26 06:17:25,600,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,6893.485025715111,690
+19086,43.7683941 10.3437961,2014-05-26 07:09:27,1871,Monday   ,Verso casa,Bici,12783.762138638644,690
+19088,43.7260342 10.4028785,2014-05-26 08:24:36,845,Monday   ,"Svago (sport, escursioni, musei,...)",Bici,938.4210459243874,690
+19090,43.7266171 10.41108,2014-05-26 10:05:36,484,Monday   ,Verso casa,Piedi,361.8557527307559,690
+19092,43.7279601 10.4062594,2014-05-26 10:15:34,496,Monday   ,Verso casa,Piedi,400.2154013007632,690
+19094,43.7259882 10.4027525,2014-05-26 10:54:26,420,Monday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,668.1489291110729,690
+19096,43.7169945 10.4017483,2014-05-26 11:39:12,420,Monday   ,Prendere o lasciare qualcuno,Bici,747.173119650371,690
+19098,43.7151008 10.3942856,2014-05-27 04:26:54,380,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,506.53641844615726,690
+19100,43.7159221 10.3996413,2014-05-27 04:34:14,367,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,557.633466279093,690
+19102,43.7204392 10.4000844,2014-05-27 05:29:01,351,Tuesday  ,Verso casa,Bici,715.4978369126587,690
+19104,43.7259321 10.4028177,2014-05-27 07:27:35,242,Tuesday  ,Prendere o lasciare qualcuno,Bici,769.9393642347861,690
+19106,43.7193076 10.4002798,2014-05-27 08:00:26,670,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,10048.066905478136,690
+19108,43.7151459 10.3942231,2014-05-27 11:48:25,426,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,498.8957512079108,690
+19110,43.7160997 10.399614,2014-05-27 11:56:30,483,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,667.4279113916662,690
+19112,43.7158213 10.399524,2014-05-27 13:57:46,420,Tuesday  ,Prendere o lasciare qualcuno,Piedi,530.3044862603767,690
+19114,43.7154189 10.3932274,2014-05-27 19:17:24,543,Tuesday  ,Verso casa,Bici,1511.12522593856,690
+19116,43.7259952 10.4027684,2014-05-28 04:55:26,313,Wednesday,"Servizi (dottore, banca, parrucchiere,...)",Bici,657.3365769824105,690
+19118,43.7207658 10.4036138,2014-05-28 05:49:04,1043,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1224.6828638909665,690
+19120,43.7153184 10.3933228,2014-05-28 09:46:34,1091,Wednesday,"Svago (sport, escursioni, musei,...)",Bici,2286.616781524218,690
+19122,43.726481 10.4117767,2014-05-28 11:50:18,406,Wednesday,Verso casa,Bici,817.6875571961851,690
+19124,43.7259664 10.4028639,2014-05-28 12:56:07,1157,Wednesday,Prendere o lasciare qualcuno,Bici,1714.2389610924165,690
+19126,43.7153297 10.3949162,2014-05-28 20:47:16,791,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,643.2790617820808,690
+19128,43.7108161 10.399181,2014-05-28 21:17:35,429,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,440.96452719785054,690
+19130,43.7154163 10.3932243,2014-05-29 04:57:02,378,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,765.077146566612,690
+19132,43.7191207 10.397198,2014-05-29 05:54:07,423,Thursday ,Prendere o lasciare qualcuno,Bici,586.9021158332035,690
+19134,43.7157215 10.3950777,2014-05-29 08:03:39,281,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,643.1231888588176,690
+19136,43.7197337 10.4013727,2014-05-29 08:12:52,222,Thursday ,Verso casa,Bici,803.7054761658583,690
+19138,43.7259911 10.4028321,2014-05-29 08:22:23,366,Thursday ,"Svago (sport, escursioni, musei,...)",Bici,813.0295386975056,690
+19140,43.7265006 10.4115162,2014-05-29 10:01:20,487,Thursday ,Verso casa,Bici,823.1047287261113,690
+19142,43.7260091 10.4028788,2014-05-29 11:13:53,665,Thursday ,Prendere o lasciare qualcuno,Bici,1807.9413533324105,690
+19144,43.7159897 10.3949445,2014-05-29 12:01:33,570,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,773.4073935160382,690
+19146,43.7154867 10.4015006,2014-05-29 13:17:31,482,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,567.8091260368536,690
+19148,43.7108453 10.399303,2014-05-29 13:28:38,541,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,582.8096530517014,690
+19150,43.7160345 10.39939,2014-05-29 14:03:01,422,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,505.8011832442954,690
+19152,43.715326 10.3933174,2014-05-29 15:54:18,483,Thursday ,Prendere o lasciare qualcuno,Bici,1306.687175324621,690
+19154,43.7156487 10.401495,2014-05-29 16:07:24,298,Thursday ,Verso casa,Bici,1309.127667969239,690
+19156,43.7259034 10.4027063,2014-05-30 04:49:18,253,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,638.5964833590797,690
+19158,43.7199458 10.3996791,2014-05-30 05:24:36,607,Friday   ,Prendere o lasciare qualcuno,Bici,844.274650420543,690
+19160,43.7154406 10.3932789,2014-05-30 06:28:28,1656,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,7799.634240150212,690
+19162,43.7686574 10.3437353,2014-05-30 07:40:57,277,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,442.7373484336918,690
+19164,43.7653735 10.3414533,2014-05-30 07:57:36,2305,Friday   ,Verso casa,Bici,13147.104144993296,690
+19166,43.7265125 10.4116818,2014-05-30 09:12:20,968,Friday   ,Prendere o lasciare qualcuno,Bici,2377.179936151867,690
+19168,43.7152289 10.3933913,2014-05-30 12:04:18,365,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,781.710313849039,690
+19170,43.7157316 10.4014971,2014-05-30 13:20:47,605,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,583.2541539516694,690
+19172,43.7121331 10.3998107,2014-05-30 14:08:05,513,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,420.8690159415327,690
+19174,43.7166473 10.4023625,2014-05-30 14:20:14,361,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,355.2361968754377,690
+19176,43.719287 10.400333,2014-05-30 15:11:36,420,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,395.4900798104976,690
+19178,43.7179152 10.401985,2014-05-30 15:22:27,183,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,210.23109684614585,690
+19180,43.7203998 10.3999041,2014-05-30 15:49:46,823,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1525.0566650095425,690
+19182,43.7105947 10.3990221,2014-05-30 16:08:33,421,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1238.232261636132,690
+19184,43.7197293 10.3986404,2014-05-30 16:23:38,603,Friday   ,Prendere o lasciare qualcuno,Piedi,734.9131079479862,690
+19186,43.7161789 10.3920764,2014-05-30 16:38:42,738,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1001.1922354084452,690
+19188,43.7198179 10.3997679,2014-05-30 16:58:00,664,Friday   ,Prendere o lasciare qualcuno,Piedi,823.949640364728,690
+19190,43.7154295 10.3931948,2014-05-31 09:24:16,461,Saturday ,"Svago (sport, escursioni, musei,...)",Bici,914.4378155848271,690
+19192,43.7098432 10.3990317,2014-05-31 09:36:05,283,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,281.5597160854647,690
+19194,43.712036 10.4004804,2014-05-31 10:08:46,458,Saturday ,Prendere o lasciare qualcuno,Bici,714.5504891839931,690
+18366,43.7192873 10.4004378,2014-05-31 17:11:58,344,Saturday ,"Svago (sport, escursioni, musei,...)",Bici,442.230744066721,690
+18368,43.7157088 10.4000126,2014-05-31 17:20:10,433,Saturday ,Prendere o lasciare qualcuno,Piedi,424.58537809947785,690
+18370,43.7216504 10.3662134,2014-05-31 18:09:21,182,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,2291.7297291665136,690
+18372,43.7154463 10.3933076,2014-05-31 18:16:23,239,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4577.907847901804,690
+18374,43.7216504 10.3662134,2014-05-31 18:43:56,237,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,2292.9583800172304,690
+18376,43.7154806 10.3933025,2014-05-31 18:51:53,236,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4573.954842937106,690
+18378,43.7216504 10.3662134,2014-05-31 19:37:56,185,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,2282.7168106389067,690
+18380,43.7153602 10.3931631,2014-05-31 19:43:02,304,Saturday ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4573.161195972338,690
+18382,43.7151832 10.3937318,2014-06-01 05:07:43,314,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,980.1395309078008,690
+18384,43.7205634 10.400119,2014-06-01 05:41:02,414,Sunday   ,Verso casa,Bici,696.3732416486552,690
+18386,43.7259599 10.402753,2014-06-01 08:34:36,695,Sunday   ,Prendere o lasciare qualcuno,Bici,1718.3167148882249,690
+18388,43.7154379 10.3932285,2014-06-01 09:28:03,245,Sunday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4571.466191575457,690
+18390,43.7154561 10.3932079,2014-06-01 09:36:05,285,Sunday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4567.107812356686,690
+18392,43.7154391 10.3932429,2014-06-01 09:52:59,240,Sunday   ,"Spostamento errato (Errore GPS, mai stato li')",Piedi,4569.435585022389,690
+18394,43.7157173 10.3927388,2014-06-01 11:52:31,410,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1010.8937649603891,690
+18396,43.7237585 10.3919376,2014-06-01 12:22:02,370,Sunday   ,Prendere o lasciare qualcuno,Bici,1021.7141695798229,690
+18398,43.715783 10.399876,2014-06-01 15:56:34,514,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,452.8592780659688,690
+18400,43.7156817 10.3924701,2014-06-02 09:21:03,418,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,659.3187570803714,690
+18402,43.7210366 10.3907036,2014-06-02 10:58:01,981,Monday   ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,1033.0035131125776,690
+18404,43.7198611 10.3991079,2014-06-02 12:01:48,483,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,462.63725920124944,690
+18406,43.7183733 10.3970147,2014-06-02 12:10:53,597,Monday   ,Verso casa,Bici,1030.1052291452336,690
+18408,43.7255642 10.4047614,2014-06-03 07:06:49,1579,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Bici,10960.618614419554,690
+18410,43.7695309 10.3434079,2014-06-03 08:48:55,1157,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,18799.35873991214,690
+18412,43.726475 10.3913745,2014-06-03 09:10:12,302,Tuesday  ,Verso casa,Bici,950.8236439900892,690
+18414,43.7259738 10.4026799,2014-06-03 10:26:02,749,Tuesday  ,Prendere o lasciare qualcuno,Bici,1857.261884398295,690
+18416,43.7153422 10.39336,2014-06-03 11:13:23,629,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1021.907808937118,690
+18418,43.7205026 10.4000591,2014-06-03 11:55:41,391,Tuesday  ,Verso casa,Piedi,663.7536597789694,690
+18420,43.7255909 10.4043729,2014-06-03 12:09:03,458,Tuesday  ,"Svago (sport, escursioni, musei,...)",Bici,794.3310816921979,690
+20578,43.7266526 10.4114549,2014-06-03 14:01:49,782,Tuesday  ,Verso casa,Bici,1094.362607967132,690
+21390,43.7258612 10.4028633,2014-06-04 04:43:16,261,Wednesday,"Servizi (dottore, banca, parrucchiere,...)",Bici,884.0677791577343,690
+21392,43.7204821 10.4000754,2014-06-04 05:30:51,779,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,776.1453941855361,690
+21394,43.7216967 10.4075764,2014-06-04 09:25:52,1053,Wednesday,Verso casa,Bici,2202.747719089113,690
+21396,43.7259561 10.4029863,2014-06-04 09:48:57,1228,Wednesday,"Svago (sport, escursioni, musei,...)",Bici,3137.1036743909244,690
+21398,43.726598 10.4115006,2014-06-04 11:22:30,3899,Wednesday,Verso casa,Bici,11907.397949307584,690
+21400,43.725811 10.4024091,2014-06-04 13:03:15,952,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,2767.191491726888,690
+21402,43.7141241 10.4015691,2014-06-04 14:16:39,300,Wednesday,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,259.73415720786954,690
+21404,43.7139465 10.4006654,2014-06-04 14:24:42,422,Wednesday,Prendere o lasciare qualcuno,Bici,784.3983937065975,690
+20580,43.715231 10.394601,2014-06-05 04:45:09,885,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Piedi,997.800765673556,690
+20582,43.7193566 10.4002438,2014-06-05 05:45:13,544,Thursday ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,557.569369215626,690
+20584,43.7166821 10.3948797,2014-06-05 07:00:50,361,Thursday ,Verso casa,Bici,1301.308221019502,690
+20586,43.7259766 10.4027937,2014-06-05 07:40:48,600,Thursday ,Prendere o lasciare qualcuno,Bici,1525.0103265573612,690
+20588,43.7139827 10.3961123,2014-06-05 09:03:55,483,Thursday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,401.4186252069546,690
+20590,43.7132968 10.4003481,2014-06-05 09:15:08,416,Thursday ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,617.7445353619004,690
+20592,43.7133081 10.4002984,2014-06-05 09:38:46,969,Thursday ,Prendere o lasciare qualcuno,Bici,827.3796164138548,690
+20594,43.7154125 10.3948468,2014-06-05 13:07:53,344,Thursday ,"Svago (sport, escursioni, musei,...)",Piedi,444.3956948707781,690
+20596,43.7160452 10.4019432,2014-06-05 14:01:52,405,Thursday ,"Svago (sport, escursioni, musei,...)",Piedi,433.0710302659679,690
+21406,43.719254 10.4003808,2014-06-05 14:36:28,1135,Thursday ,Prendere o lasciare qualcuno,Piedi,1154.5008302208155,690
+21408,43.7157764 10.3950286,2014-06-05 16:59:34,527,Thursday ,Verso casa,Bici,1396.3540113063357,690
+21410,43.726031 10.4027349,2014-06-06 04:33:43,361,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,664.5847988548719,690
+21412,43.7204949 10.4000894,2014-06-06 05:53:09,1274,Friday   ,Prendere o lasciare qualcuno,Bici,3534.31061920141,690
+21414,43.7140344 10.366665,2014-06-06 06:34:16,1889,Friday   ,Prendere o lasciare qualcuno,Bici,6022.453916385957,690
+21416,43.7198246 10.4265347,2014-06-06 10:54:52,1176,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,4254.897910695357,690
+21418,43.7193743 10.4002737,2014-06-06 12:01:28,876,Friday   ,Prendere o lasciare qualcuno,Bici,924.3069906879504,690
+21420,43.715856 10.4014927,2014-06-06 13:52:27,1389,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1336.237342367223,690
+21422,43.7178375 10.4018289,2014-06-06 16:59:44,386,Friday   ,"Svago (sport, escursioni, musei,...)",Piedi,454.640719021448,690
+21424,43.7192701 10.400298,2014-06-06 17:38:37,1029,Friday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Bici,1655.1030714029323,690
+21426,43.7154139 10.3931944,2014-06-06 23:56:54,1372,Friday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,2969.648163993203,690
+21428,43.7125893 10.4190811,2014-06-07 01:32:28,1166,Saturday ,Prendere o lasciare qualcuno,Bici,2143.120653402876,690
+21430,43.7154003 10.3932543,2014-06-07 02:02:03,631,Saturday ,Verso casa,Bici,1538.6750931705708,690
+21432,43.7256954 10.4041816,2014-06-07 07:24:31,461,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1461.8594697185672,690
+21434,43.7233267 10.3919781,2014-06-07 07:35:56,444,Saturday ,Prendere o lasciare qualcuno,Bici,983.9794796577704,690
+21436,43.7153617 10.3931646,2014-06-07 10:25:46,387,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,929.407390242132,690
+21438,43.7232986 10.3919956,2014-06-07 10:34:46,1143,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,2636.7506912951444,690
+21440,43.7178253 10.4173832,2014-06-07 11:21:59,601,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,2223.780480412293,690
+21442,43.7233088 10.3919981,2014-06-07 11:33:00,360,Saturday ,Prendere o lasciare qualcuno,Bici,962.0148661753948,690
+21444,43.7154373 10.3932581,2014-06-07 12:29:40,1266,Saturday ,"Servizi (dottore, banca, parrucchiere,...)",Bici,4596.766101172773,690
+22636,43.7054622 10.4424088,2014-06-07 12:58:45,1274,Saturday ,"Svago (sport, escursioni, musei,...)",Bici,4439.090579468561,690
+22638,43.7153222 10.3932659,2014-06-08 00:16:06,724,Sunday   ,"Servizi (dottore, banca, parrucchiere,...)",Bici,1030.8455812991708,690
+22640,43.710537 10.402193,2014-06-08 00:58:46,800,Sunday   ,Prendere o lasciare qualcuno,Bici,1098.2681640858395,690
+22642,43.7152166 10.3947172,2014-06-08 04:13:18,546,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,846.0112073489377,690
+22644,43.7199763 10.4071487,2014-06-08 09:33:31,975,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,920.9681486894382,690
+22646,43.7234738 10.4022262,2014-06-08 12:20:54,705,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1038.9159341827224,690
+22648,43.7156934 10.4015266,2014-06-08 16:12:50,361,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,567.3201626584782,690
+22650,43.7101664 10.3988006,2014-06-08 16:56:49,727,Sunday   ,Prendere o lasciare qualcuno,Piedi,723.1607151566594,690
+22652,43.7157567 10.3951249,2014-06-08 17:17:03,365,Sunday   ,Verso casa,Bici,1413.5672331216483,690
+22654,43.7239953 10.392307,2014-06-09 06:06:55,483,Monday   ,Prendere o lasciare qualcuno,Bici,1036.2133281166757,690
+22656,43.7154338 10.3932856,2014-06-09 10:27:41,422,Monday   ,Verso casa,Bici,1475.7053637128297,690
+22658,43.7259744 10.402802,2014-06-09 10:39:52,526,Monday   ,"Svago (sport, escursioni, musei,...)",Bici,827.9245181228806,690
+22660,43.7267713 10.4115852,2014-06-09 12:53:57,488,Monday   ,Verso casa,Bici,914.670413004916,690
+22664,43.7249705 10.4023621,2014-06-09 14:32:03,300,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,905.5354752614596,690
+22666,43.7247944 10.3927278,2014-06-09 15:17:12,413,Monday   ,Verso casa,Bici,1007.4707613994372,690
+22668,43.7260256 10.4028816,2014-06-09 15:34:59,714,Monday   ,Prendere o lasciare qualcuno,Bici,1853.8585659180103,690
+22670,43.7156244 10.3949662,2014-06-09 17:49:29,393,Monday   ,Verso casa,Bici,1398.364950679192,690
+22672,43.7259715 10.402821,2014-06-10 04:52:44,357,Tuesday  ,"Servizi (dottore, banca, parrucchiere,...)",Bici,673.408826944211,690
+22674,43.720218 10.3989577,2014-06-10 05:40:54,405,Tuesday  ,Verso casa,Bici,760.6223480032172,690
+22676,43.7239787 10.4016442,2014-06-10 05:51:37,454,Tuesday  ,Prendere o lasciare qualcuno,Bici,1559.5200771810855,690
+22678,43.7150196 10.3938058,2014-06-10 12:05:06,1035,Tuesday  ,"Svago (sport, escursioni, musei,...)",Bici,3436.6946930360336,690
+22680,43.709492 10.3970556,2014-06-10 13:45:27,730,Tuesday  ,Verso casa,Bici,1980.867030882402,690
+22682,43.7258477 10.402491,2014-06-10 14:25:07,332,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1132.9433186189094,690

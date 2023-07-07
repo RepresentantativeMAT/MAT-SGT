@@ -1,14 +1,14 @@
 Method runtime information:
-Start timestamp: Fri Jun 16 13:06:02 CEST 2023
-End timestamp: Fri Jun 16 13:06:02 CEST 2023
+Start timestamp: Thu Jul 06 18:27:02 BRT 2023
+End timestamp: Thu Jul 06 18:27:02 BRT 2023
 ##
 Info input dataset:
 |input.T|, |input.T.points|
 3, 17
 ##
 RT setting infos:
-thresholdCellSize, |rt|, CellSize, tauRelevantCell, minPointsRC, tauRepresentativenessValue, |cell|, RepresentativenessMeasure, |cover RT|
-25, 4, 12.785241894721985, 0.25, 4.25, 0.25, 2, 0.67328435, 10
+thresholdCellSize, CellSize, tauRelevantCell, tauRepresentativenessValue, |cell|, minPointsRC, |rt|, RepresentativenessMeasure, |coverPoints|
+25, 12.785241894721985, 0.25, 0.25, 2, 4.25, 4, 0.67328435, 10
 ##
 RT description:
 lat_lon, time, PRICE, POI, WEATHER, PRECIP, mapping

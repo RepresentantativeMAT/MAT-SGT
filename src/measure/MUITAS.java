@@ -11,7 +11,7 @@ import br.ufsc.model.MultipleAspectTrajectory;
 import br.ufsc.model.Point;
 import br.ufsc.model.STI;
 import br.ufsc.model.SemanticAspect;
-import br.ufsc.model.Util;
+import br.ufsc.util.Util;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.Map;
@@ -158,10 +158,7 @@ public class MUITAS {
         double score = 0;
 
         ///// Problem identified: only points that derived rp, but the other point in the same cell not is valid?
-//        if (p1.getPointListSource().contains(p2)) {
-//             score += (getWeight("SPATIAL"));
-////            System.out.println("Spatial Match: "+score);
-//        }
+
         //Spatial match:
         if (Util.euclideanDistance(p1, p2) <= getThreshold("SPATIAL")) {
             score += (getWeight("SPATIAL"));
@@ -207,8 +204,8 @@ public class MUITAS {
             {
                 try {
                     match = Math.abs(Double.parseDouble((String) rep.getValue()) - Double.parseDouble((String) atv.getValue())) <= getThreshold(atv.getAttibute()) ? 1.0 : 0;
-                } catch (NullPointerException e) {
-                    match = Math.abs(Double.parseDouble((String) rep.getValue()) - Double.parseDouble((String) atv.getValue())) <= 11 ? 1.0 : 0;
+                } catch (Exception e) {
+                    match = ((String)rep.getValue()).equalsIgnoreCase((String)atv.getValue()) ? 1.0 : 0;
                 }
             }
 //                

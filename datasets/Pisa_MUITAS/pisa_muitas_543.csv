@@ -1,0 +1,10 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+15070,43.546077 10.322768,2014-05-29 17:46:51,269,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,559.0960215728072,543
+15072,43.547855 10.325554,2014-05-29 17:55:51,92,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,435.69288325882167,543
+15190,43.54773697758664 10.31765021359083,2014-05-29 22:14:31,646,Thursday ,Verso casa,Piedi,1091.6797750618534,543
+15192,43.54886987983688 10.31588490080479,2014-05-30 09:35:01,513,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,761.0329665206588,543
+15194,43.54770015140464 10.3090455784623,2014-05-30 09:53:56,686,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,701.2081289658418,543
+15196,43.54490281796096 10.30855369765596,2014-05-30 10:09:10,717,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,835.5189527878532,543
+16198,43.54694140541041 10.31061722090927,2014-05-30 10:26:10,297,Friday   ,Verso casa,Piedi,418.2631260761573,543
+16200,43.54991666378408 10.31158255787181,2014-05-30 11:26:53,1116,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,3053.2778394470606,543
+16204,43.70645836642741 10.44047975436763,2014-05-30 12:02:52,297,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Automobile,477.26965129516566,543

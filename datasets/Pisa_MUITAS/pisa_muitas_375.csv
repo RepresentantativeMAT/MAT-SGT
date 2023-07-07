@@ -1,0 +1,226 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+13902,43.712362 10.417785,2014-05-27 12:08:42,570,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,814.1402090741765,375
+13900,43.710404 10.411885,2014-05-27 17:26:04,403,Tuesday  ,Verso casa,Piedi,680.2878581696469,375
+14476,43.712715 10.417197,2014-05-27 19:41:58,1107,Tuesday  ,Al lavoro,Piedi,1502.388535908134,375
+14484,43.712482 10.418052,2014-05-28 12:56:10,400,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,619.6176312325108,375
+14486,43.712287 10.412441,2014-05-28 17:44:27,514,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,684.4684268697087,375
+14488,43.71486 10.417536,2014-05-28 18:14:39,446,Wednesday,Verso casa,Piedi,591.9109392264698,375
+14890,43.717218 10.412281,2014-05-28 20:20:36,640,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,844.2210949822615,375
+14898,43.719501 10.407334,2014-05-28 22:45:06,1192,Wednesday,Verso casa,Piedi,1464.6194344941337,375
+14900,43.713074 10.417512,2014-05-29 11:13:30,319,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,473.1858923454865,375
+14902,43.712995 10.414819,2014-05-29 17:56:18,326,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,545.0421310068824,375
+14904,43.714905 10.4158,2014-05-29 18:26:56,351,Thursday ,Verso casa,Piedi,494.38438909466856,375
+15404,43.712865 10.417367,2014-05-29 19:47:36,1208,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1585.08675554995,375
+15408,43.711059 10.410704,2014-05-30 16:48:19,652,Friday   ,Verso casa,Piedi,842.8393661930928,375
+15410,43.71369 10.415459,2014-05-30 19:00:14,258,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,361.7724765688196,375
+15806,43.714951 10.418164,2014-05-30 19:28:16,1225,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1623.4349647134527,375
+16338,43.718476 10.40768,2014-05-30 22:37:20,1271,Friday   ,Verso casa,Piedi,1431.3947635029456,375
+16350,43.709769 10.399028,2014-06-01 12:30:37,598,Sunday   ,"Shopping (abbigliamento, calzature, mobili...)",Autobus/mezzi urbani,4361.030011581957,375
+16342,43.691547 10.38421,2014-06-01 14:13:34,581,Sunday   ,Verso casa,Autobus/mezzi urbani,3788.924767482834,375
+16344,43.708721 10.399396,2014-06-01 14:32:28,313,Sunday   ,Verso casa,Autobus/mezzi urbani,1679.2155721486329,375
+16348,43.71874 10.409115,2014-06-01 22:55:30,1104,Sunday   ,Verso casa,Piedi,1350.0536663455168,375
+16984,43.71268 10.417728,2014-06-03 12:11:26,358,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,459.8834080368461,375
+16978,43.711025 10.410347,2014-06-03 17:12:40,606,Tuesday  ,Verso casa,Piedi,860.5121405405874,375
+17450,43.71337 10.416142,2014-06-03 21:02:16,961,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1385.517242257502,375
+17458,43.718919 10.407455,2014-06-03 23:07:56,1205,Tuesday  ,Verso casa,Piedi,1421.384208934819,375
+20324,43.712608 10.417628,2014-06-05 11:58:30,455,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,543.86372790576,375
+20328,43.712111 10.412046,2014-06-05 16:59:25,427,Thursday ,Verso casa,Piedi,571.080211964871,375
+20332,43.714564 10.418125,2014-06-05 18:33:12,473,Thursday ,Verso casa,Piedi,647.6345016731826,375
+21068,43.711239 10.417555,2014-06-05 20:03:53,394,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,516.4577673587298,375
+21074,43.71084 10.410471,2014-06-06 17:39:55,498,Friday   ,Verso casa,Piedi,788.4484346360052,375
+21076,43.71269 10.41781,2014-06-06 19:01:27,471,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,614.7615038309328,375
+21080,43.714918 10.417945,2014-06-06 19:30:15,1143,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1485.3090892628402,375
+21078,43.718483 10.404203,2014-06-06 23:11:56,1233,Friday   ,Verso casa,Piedi,1820.4759504594983,375
+23382,43.710342 10.409393,2014-06-12 15:40:09,702,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,871.7521608430967,375
+25096,43.714598 10.418159,2014-06-12 19:43:56,634,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1899.4792603791384,375
+25100,43.722432 10.407462,2014-06-12 21:47:43,560,Thursday ,Verso casa,Bici,1823.1804361269103,375
+25104,43.711148 10.417444,2014-06-15 16:21:57,271,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,573.1639200186811,375
+25110,43.710135 10.411762,2014-06-15 18:10:44,454,Sunday   ,Verso casa,Piedi,685.7267455160174,375
+25118,43.711302 10.417335,2014-06-15 20:03:38,413,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,541.4782545257863,375
+25124,43.713867 10.414431,2014-06-15 22:20:26,136,Sunday   ,Verso casa,Bici,393.8422064951644,375
+26234,43.712295 10.417418,2014-06-17 12:28:25,300,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,677.4657775463613,375
+26246,43.712385 10.41769,2014-06-17 19:44:56,189,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,702.7132426197288,375
+26244,43.710334 10.411841,2014-06-17 21:41:47,384,Tuesday  ,Verso casa,Bici,1076.164219286737,375
+26258,43.712371 10.417963,2014-06-18 11:18:44,316,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,757.1677087835036,375
+26260,43.711895 10.411619,2014-06-18 17:51:44,188,Wednesday,Verso casa,Bici,673.5379924960649,375
+26262,43.712387 10.417405,2014-06-18 19:46:52,825,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1867.5507586549527,375
+26242,43.716875 10.418217,2014-06-18 22:27:08,972,Wednesday,Verso casa,Bici,6103.693159322564,375
+26256,43.712336 10.41778,2014-06-19 11:29:09,299,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,829.67408574349,375
+26238,43.711162 10.411395,2014-06-19 18:04:15,270,Thursday ,Verso casa,Bici,742.5228658829699,375
+26248,43.712544 10.417997,2014-06-19 19:04:06,319,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,585.6747536791257,375
+26532,43.714922 10.418098,2014-06-19 19:25:32,388,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,1020.1787260822276,375
+26536,43.710128 10.412233,2014-06-19 21:48:19,244,Thursday ,Verso casa,Bici,628.7334958539711,375
+26538,43.712846 10.417831,2014-06-20 19:07:25,227,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,559.6937191865941,375
+26542,43.714952 10.418131,2014-06-20 19:28:45,243,Friday   ,Verso casa,Bici,610.8112769471526,375
+26826,43.712551 10.417282,2014-06-20 20:04:38,236,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,643.1493097439161,375
+26834,43.710136 10.412272,2014-06-20 21:36:07,503,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1695.966615039688,375
+26838,43.722817 10.41415,2014-06-20 23:19:11,482,Friday   ,Verso casa,Bici,1503.4764232225352,375
+26830,43.714182 10.42041,2014-06-21 15:50:25,341,Saturday ,Verso casa,Piedi,327.6501440002651,375
+26836,43.71227 10.417781,2014-06-21 19:43:52,251,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,619.2647881661408,375
+27358,43.710258 10.411915,2014-06-21 21:47:03,311,Saturday ,Verso casa,Bici,643.3819613425408,375
+27378,43.712377 10.417378,2014-06-22 12:41:46,259,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,627.612386872627,375
+27372,43.710267 10.412224,2014-06-22 16:30:10,269,Sunday   ,Verso casa,Bici,650.1524993781331,375
+27374,43.712592 10.417956,2014-06-22 19:52:34,311,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,600.3089766738378,375
+27380,43.710288 10.412116,2014-06-22 21:45:40,270,Sunday   ,Verso casa,Bici,626.0587285863138,375
+27362,43.712733 10.417479,2014-06-23 16:04:47,740,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,1651.991932550245,375
+27366,43.710918 10.41102,2014-06-23 17:51:04,346,Monday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,1105.413907287366,375
+28600,43.710671 10.417489,2014-06-23 18:19:23,151,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,441.3682356066626,375
+28622,43.711988 10.417646,2014-06-24 13:06:13,289,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,695.6626809718138,375
+28624,43.71161 10.411977,2014-06-24 15:54:54,259,Tuesday  ,Verso casa,Bici,606.9270713771182,375
+28602,43.712338 10.417832,2014-06-24 19:53:59,332,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,821.3930154399086,375
+28616,43.710301 10.411968,2014-06-24 21:48:23,319,Tuesday  ,Verso casa,Bici,674.316049087327,375
+28606,43.710483 10.416207,2014-06-25 11:48:40,229,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,484.2895485425669,375
+28608,43.712122 10.412081,2014-06-25 17:44:09,177,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,670.1100753259262,375
+28612,43.714839 10.417796,2014-06-25 18:01:17,227,Wednesday,Verso casa,Bici,476.38243670129816,375
+28618,43.712425 10.417485,2014-06-25 19:56:56,247,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,652.7558509666209,375
+30330,43.710232 10.41207,2014-06-25 21:47:15,302,Wednesday,Verso casa,Bici,662.9994064692028,375
+30374,43.716325 10.40513,2014-06-27 10:58:14,1377,Friday   ,Verso casa,Piedi,1497.5632090137788,375
+30384,43.714381 10.413689,2014-06-27 13:55:34,653,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1049.932608085296,375
+30390,43.718444 10.403282,2014-06-27 22:31:09,1512,Friday   ,Verso casa,Piedi,1829.3970824899243,375
+30392,43.712396 10.417702,2014-06-28 12:20:32,281,Saturday ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,352.28226419619523,375
+30388,43.714103 10.420468,2014-06-28 12:26:18,396,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,976.177753445156,375
+30340,43.710031 10.411926,2014-06-28 14:38:09,304,Saturday ,Verso casa,Bici,673.197195189294,375
+30342,43.711759 10.417667,2014-06-28 16:24:25,257,Saturday ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,482.2922238116541,375
+30346,43.712477 10.418081,2014-06-28 16:30:38,268,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,630.0609988058349,375
+30350,43.710098 10.412145,2014-06-28 18:00:53,222,Saturday ,Verso casa,Bici,627.9487966623544,375
+30380,43.713311 10.41623,2014-06-28 20:24:03,2125,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,2678.7660913636137,375
+30382,43.729497 10.402545,2014-06-29 00:28:20,863,Sunday   ,Verso casa,Automobile,5797.2480823277165,375
+30358,43.712163 10.417707,2014-06-29 12:22:34,341,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,644.8681844952933,375
+30360,43.71226 10.417418,2014-06-29 19:28:17,776,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,888.7145220021191,375
+30368,43.710212 10.412017,2014-06-29 21:46:46,525,Sunday   ,Verso casa,Piedi,657.4916064677076,375
+30364,43.714859 10.417041,2014-06-30 18:11:17,193,Monday   ,Verso casa,Bici,570.9058893068669,375
+31338,43.71195 10.418066,2014-06-30 19:42:34,296,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,621.4512070097077,375
+31400,43.710082 10.412358,2014-06-30 21:45:02,347,Monday   ,Verso casa,Bici,614.9691559828942,375
+31342,43.712987 10.418345,2014-07-01 11:23:00,624,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,1637.3816746226812,375
+31346,43.712148 10.412572,2014-07-01 14:06:27,256,Tuesday  ,Verso casa,Bici,582.7683106688212,375
+31350,43.712346 10.417424,2014-07-01 16:18:40,406,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,960.7466876053844,375
+31412,43.711419 10.41164,2014-07-01 17:48:22,240,Tuesday  ,Prendere o lasciare qualcuno,Bici,797.3496390701575,375
+31354,43.71494 10.417985,2014-07-01 18:05:12,214,Tuesday  ,Verso casa,Bici,621.3463956681229,375
+31414,43.712942 10.418171,2014-07-01 18:26:28,326,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Piedi,291.2007729290902,375
+31358,43.712468 10.418209,2014-07-01 19:46:19,285,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,666.5315399130643,375
+31416,43.710183 10.412032,2014-07-01 21:46:07,286,Tuesday  ,Verso casa,Bici,625.499972680461,375
+31406,43.712172 10.417526,2014-07-02 11:50:12,227,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Bici,385.2429322188206,375
+31408,43.710741 10.419872,2014-07-02 12:02:43,192,Wednesday,Verso casa,Bici,385.4916748862936,375
+31410,43.711862 10.417712,2014-07-02 12:39:00,259,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,740.0704454369769,375
+31370,43.710964 10.410894,2014-07-02 17:49:34,253,Wednesday,Verso casa,Bici,699.8813228696306,375
+31374,43.712407 10.417652,2014-07-02 20:28:08,329,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,629.1600158758436,375
+31378,43.710173 10.412101,2014-07-02 21:37:59,400,Wednesday,Verso casa,Bici,627.6319561865206,375
+31382,43.712364 10.417493,2014-07-03 06:38:17,350,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,685.2283636409566,375
+31386,43.711539 10.411855,2014-07-03 10:24:41,296,Thursday ,Verso casa,Bici,592.9504225944239,375
+31388,43.711699 10.417307,2014-07-03 12:58:43,291,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,864.6698063320365,375
+31392,43.710931 10.410988,2014-07-03 17:43:00,304,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,881.7554302304573,375
+31396,43.71486 10.417456,2014-07-03 18:13:53,197,Thursday ,Verso casa,Bici,538.839732006316,375
+32724,43.712665 10.418014,2014-07-03 19:56:53,248,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,682.3846042107836,375
+32732,43.712011 10.417526,2014-07-05 07:42:33,282,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,712.6714053077238,375
+32736,43.710831 10.410795,2014-07-05 11:15:15,340,Saturday ,Verso casa,Bici,803.1744426856453,375
+32740,43.711882 10.417623,2014-07-05 14:23:12,275,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,563.7742787176204,375
+32744,43.710348 10.41198,2014-07-05 17:37:32,336,Saturday ,Verso casa,Bici,630.6347087670209,375
+32748,43.712573 10.417712,2014-07-05 20:35:40,371,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1554.5083154754102,375
+32752,43.721429 10.412901,2014-07-05 22:20:24,537,Saturday ,Verso casa,Bici,1389.707554071362,375
+32756,43.710552 10.417782,2014-07-06 08:19:46,213,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,487.98373431529205,375
+32760,43.710249 10.413314,2014-07-06 10:38:15,184,Sunday   ,Verso casa,Bici,513.095718006307,375
+32764,43.711169 10.417158,2014-07-06 12:53:09,227,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,450.49068162097547,375
+32768,43.709943 10.412436,2014-07-06 21:46:32,288,Sunday   ,Verso casa,Bici,600.6556991188212,375
+32800,43.711776 10.412118,2014-07-07 08:58:52,216,Monday   ,Verso casa,Bici,582.1677855389515,375
+32772,43.712064 10.417387,2014-07-07 09:25:13,278,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,758.407841256992,375
+32802,43.711079 10.411087,2014-07-07 13:20:09,341,Monday   ,Verso casa,Bici,732.3903459536664,375
+32776,43.712723 10.417801,2014-07-07 19:05:21,333,Monday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,586.2035622050596,375
+32786,43.714968 10.417931,2014-07-07 19:34:03,323,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,992.9609586286504,375
+32780,43.718332 10.405211,2014-07-07 22:59:12,146,Monday   ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,207.16411739266897,375
+32792,43.71025 10.412074,2014-07-08 13:24:03,601,Tuesday  ,Verso casa,Piedi,771.4661014117944,375
+32794,43.711251 10.417534,2014-07-08 20:23:37,411,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,484.62218747219583,375
+32796,43.710281 10.41405,2014-07-08 21:01:43,489,Tuesday  ,Verso casa,Piedi,469.2402247008447,375
+39716,43.711849 10.417643,2014-07-09 10:24:57,525,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,738.6344161306662,375
+39728,43.711008 10.411088,2014-07-09 14:23:20,524,Wednesday,Verso casa,Bici,705.1538297838924,375
+39732,43.711863 10.417654,2014-07-09 15:37:45,365,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,536.5751983414486,375
+39816,43.710867 10.410975,2014-07-12 11:21:01,355,Saturday ,Verso casa,Bici,815.2458600429032,375
+39846,43.712317 10.417534,2014-07-12 17:54:42,220,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,577.4685053796304,375
+39838,43.71044 10.413053,2014-07-12 20:36:52,209,Saturday ,Verso casa,Bici,645.8612175117889,375
+39818,43.71124 10.411527,2014-07-14 14:55:21,254,Monday   ,Verso casa,Bici,658.7644794086668,375
+39744,43.712796 10.417953,2014-07-14 15:19:48,622,Monday   ,"Shopping (abbigliamento, calzature, mobili...)",Bici,2300.9108972398594,375
+39746,43.715728 10.407303,2014-07-14 15:46:32,174,Monday   ,"Shopping (abbigliamento, calzature, mobili...)",Bici,535.2147326372213,375
+39748,43.718213 10.404943,2014-07-14 15:51:54,559,Monday   ,"Shopping (abbigliamento, calzature, mobili...)",Bici,2071.900094046769,375
+39750,43.710702 10.419466,2014-07-14 16:20:59,368,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,790.9317531142403,375
+39834,43.711579 10.417753,2014-07-16 17:06:48,471,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,622.8305259317117,375
+39758,43.710039 10.413155,2014-07-16 17:50:51,845,Wednesday,Verso casa,Piedi,967.0269737745804,375
+39760,43.710283 10.412278,2014-07-16 20:09:27,539,Wednesday,Verso casa,Piedi,667.0561129523235,375
+39764,43.712755 10.41789,2014-07-17 11:14:15,416,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,557.8871401976141,375
+39768,43.712079 10.412287,2014-07-17 14:49:32,380,Thursday ,Verso casa,Piedi,488.60018107364897,375
+39812,43.713343 10.416573,2014-07-17 15:23:43,451,Thursday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,603.5866281960903,375
+39824,43.710453 10.411664,2014-07-17 20:48:14,588,Thursday ,Verso casa,Piedi,680.8720038195218,375
+39826,43.711306 10.410531,2014-07-18 17:41:54,836,Friday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,986.4915915745796,375
+39828,43.715055 10.417866,2014-07-18 18:13:24,496,Friday   ,Verso casa,Piedi,604.3833729429807,375
+39844,43.712899 10.417811,2014-07-18 20:37:19,1168,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1762.1437496503238,375
+39800,43.710523 10.409887,2014-07-19 01:06:27,727,Saturday ,Verso casa,Piedi,861.1330458646161,375
+39802,43.712728 10.417833,2014-07-19 09:40:35,545,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,724.3697143740123,375
+39830,43.709063 10.414482,2014-07-19 11:58:13,699,Saturday ,Verso casa,Piedi,1062.5489487366422,375
+39778,43.71252 10.417875,2014-07-19 16:30:05,515,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,760.4533022836418,375
+39860,43.710025 10.412614,2014-07-19 17:25:16,499,Saturday ,Verso casa,Piedi,595.1616510415914,375
+39862,43.712578 10.417742,2014-07-19 17:48:00,317,Saturday ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,365.6159832496159,375
+39798,43.714365 10.420615,2014-07-19 18:17:15,321,Saturday ,Verso casa,Piedi,420.4964936376337,375
+39840,43.712069 10.417348,2014-07-19 19:26:55,500,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,594.4406025097193,375
+39864,43.710096 10.412473,2014-07-19 21:25:14,551,Saturday ,Verso casa,Piedi,605.6831883722011,375
+39782,43.711122 10.409488,2014-07-22 10:27:02,516,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Piedi,558.6491205875877,375
+39784,43.711081 10.410107,2014-07-22 10:59:56,527,Tuesday  ,Verso casa,Piedi,764.1750487374477,375
+39786,43.710336 10.405604,2014-07-22 11:38:58,281,Tuesday  ,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Autobus/mezzi urbani,548.8016279992723,375
+39788,43.709244 10.385138,2014-07-22 14:07:30,388,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Autobus/mezzi urbani,3119.4005883598484,375
+39790,43.710552 10.415759,2014-07-22 17:25:12,427,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Piedi,608.833734680407,375
+39852,43.713292 10.415582,2014-07-22 20:56:26,417,Tuesday  ,"Attività Sociali (bar, amici, parenti, feste,...)",Bici,1343.5045021979902,375
+41230,43.552993 10.318334,2014-09-03 05:03:28,3185,Wednesday,"Sosta (cambio mezzo, traffico, sosta tecnica,...)",Autobus/mezzi urbani,30213.763986091068,375
+41200,43.710812 10.399044,2014-09-03 06:01:35,1389,Wednesday,Verso casa,Autobus/mezzi urbani,1928.3788989950688,375
+41202,43.712819 10.417606,2014-09-03 16:52:00,630,Wednesday,Verso casa,Piedi,814.3081870371881,375
+41204,43.711181 10.411502,2014-09-05 17:26:37,369,Friday   ,Verso casa,Bici,786.7941335222739,375
+41196,43.711926 10.417179,2014-09-05 20:02:50,269,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,666.4695507233426,375
+41214,43.710157 10.412183,2014-09-05 21:37:59,218,Friday   ,Verso casa,Bici,626.8580578384847,375
+41220,43.711242 10.417352,2014-09-06 07:25:42,240,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,582.5904003240876,375
+41232,43.710843 10.411221,2014-09-06 13:11:10,532,Saturday ,Verso casa,Piedi,825.3598520410907,375
+41234,43.712091 10.417664,2014-09-06 15:00:31,482,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,639.9356465902779,375
+41226,43.710107 10.411975,2014-09-07 11:47:41,288,Sunday   ,Verso casa,Bici,626.3322961630372,375
+41436,43.71227 10.417637,2014-09-07 14:25:17,223,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,551.0281146970874,375
+41446,43.710152 10.412102,2014-09-07 15:55:42,268,Sunday   ,Verso casa,Bici,620.3685032137141,375
+41450,43.712608 10.417743,2014-09-07 18:40:48,492,Sunday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,1430.4814334757823,375
+41458,43.718612 10.406405,2014-09-07 19:00:16,435,Sunday   ,Verso casa,Bici,1469.461947543601,375
+41452,43.712005 10.417517,2014-09-07 20:11:36,269,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,642.7079580262675,375
+41444,43.710085 10.412564,2014-09-07 21:48:17,278,Sunday   ,Verso casa,Bici,593.456764462009,375
+41460,43.712413 10.417801,2014-09-08 11:10:12,244,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,689.8102283592352,375
+41462,43.711305 10.410637,2014-09-08 14:15:59,515,Monday   ,Verso casa,Piedi,749.181181422339,375
+41882,43.714955 10.417999,2014-09-08 18:15:21,205,Monday   ,Verso casa,Bici,600.5894358815773,375
+41886,43.710261 10.412081,2014-09-08 21:45:56,325,Monday   ,Verso casa,Bici,884.1090543466963,375
+41890,43.712248 10.417843,2014-09-09 09:52:37,310,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,709.6815823806469,375
+41906,43.712371 10.417684,2014-09-09 11:05:09,262,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,756.1238618110317,375
+41898,43.715003 10.417984,2014-09-09 18:08:15,298,Tuesday  ,Verso casa,Bici,609.6292822684261,375
+41908,43.712257 10.417659,2014-09-09 19:28:36,261,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,643.4660389485291,375
+41910,43.710133 10.412154,2014-09-09 21:47:04,309,Tuesday  ,Verso casa,Bici,632.5015106527719,375
+41912,43.712239 10.417565,2014-09-10 09:18:32,315,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,718.3473699594988,375
+41914,43.711927 10.417442,2014-09-10 10:40:16,263,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,842.014394322057,375
+41894,43.710061 10.412351,2014-09-10 18:06:00,326,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,961.8600549096218,375
+41902,43.714881 10.418111,2014-09-10 18:28:28,195,Wednesday,Verso casa,Bici,506.3876454994212,375
+42192,43.711838 10.417044,2014-09-10 18:56:50,253,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,617.6800153624954,375
+42214,43.71029 10.412152,2014-09-10 21:44:54,339,Wednesday,Verso casa,Bici,625.2421031305978,375
+42224,43.712428 10.417545,2014-09-12 10:41:19,339,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,727.3492351437249,375
+42226,43.712181 10.417647,2014-09-12 20:16:42,374,Friday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,720.8882851073703,375
+42212,43.710165 10.41224,2014-09-12 21:36:39,313,Friday   ,Verso casa,Bici,615.4608001367807,375
+42236,43.71217 10.417493,2014-09-13 10:16:01,303,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,558.5581450682781,375
+42218,43.712139 10.417571,2014-09-13 16:36:24,209,Saturday ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,638.8373851883115,375
+42216,43.71025 10.4132,2014-09-13 18:26:14,326,Saturday ,Verso casa,Bici,699.413923095028,375
+42232,43.712127 10.417813,2014-09-14 09:44:57,212,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,203.4473204769581,375
+42234,43.710548 10.417685,2014-09-14 09:51:15,358,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,474.20753617600985,375
+42208,43.709684 10.410037,2014-09-14 11:49:03,776,Sunday   ,Verso casa,Piedi,819.4913798249364,375
+42228,43.712055 10.417702,2014-09-14 16:45:35,795,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,703.4347246594734,375
+42220,43.710016 10.412647,2014-09-14 19:08:39,535,Sunday   ,Verso casa,Piedi,611.6630242016583,375
+42724,43.712313 10.417641,2014-09-14 20:10:03,462,Sunday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,614.1960588776534,375
+42740,43.710125 10.413343,2014-09-14 21:47:21,490,Sunday   ,Verso casa,Piedi,542.210963191486,375
+42744,43.712851 10.417698,2014-09-15 09:56:43,441,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,454.8132212887342,375
+42748,43.711939 10.411895,2014-09-15 12:44:00,477,Monday   ,Verso casa,Piedi,600.8910239265266,375
+42750,43.713215 10.417714,2014-09-15 13:07:42,390,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,494.1873496302628,375
+42730,43.710368 10.410112,2014-09-15 18:01:48,675,Monday   ,Verso casa,Piedi,797.9161705065633,375
+42726,43.712221 10.417497,2014-09-15 18:32:09,658,Monday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,826.2783202784367,375
+42732,43.714892 10.418019,2014-09-15 19:13:58,958,Monday   ,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,1030.3317506579456,375
+42742,43.710011 10.412995,2014-09-15 21:51:52,479,Monday   ,Verso casa,Piedi,582.7073567040521,375
+42736,43.713087 10.415568,2014-09-16 11:16:00,279,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Piedi,257.4874784414576,375
+42846,43.714763 10.418029,2014-09-16 18:04:47,583,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,803.0053546279033,375
+42850,43.710251 10.412208,2014-09-16 21:42:04,615,Tuesday  ,Verso casa,Piedi,716.7772477059931,375
+42852,43.71273 10.417848,2014-09-17 10:25:51,468,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,563.226228087503,375
+42856,43.712062 10.412013,2014-09-17 11:22:51,423,Wednesday,Verso casa,Piedi,593.6988337424967,375
+42858,43.712793 10.417705,2014-09-17 13:10:42,400,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,463.4833160738507,375
+42848,43.710523 10.412359,2014-09-17 21:17:14,446,Wednesday,Verso casa,Piedi,595.1364506258253,375

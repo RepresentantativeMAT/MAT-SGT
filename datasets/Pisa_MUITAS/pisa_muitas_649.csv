@@ -1,0 +1,18 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+17394,43.7122339 10.40069822,2014-06-04 12:08:34,225,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,854.466958381955,649
+17396,43.7197466 10.40113186,2014-06-04 12:40:49,168,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,576.032790362773,649
+17398,43.71968806 10.40714367,2014-06-04 18:11:01,187,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,490.9020135747812,649
+17400,43.71921327 10.40221403,2014-06-04 18:47:28,320,Wednesday,Verso casa,Bici,842.6416669916077,649
+23122,43.71258825 10.40127059,2014-06-11 09:04:51,500,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,1338.5154541350096,649
+23124,43.72093234 10.40793446,2014-06-11 11:21:20,245,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,565.3716761740708,649
+23126,43.71818043 10.40075932,2014-06-11 12:13:13,229,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,743.7176944464244,649
+23128,43.72018237 10.40738565,2014-06-11 15:31:12,492,Wednesday,Verso casa,Bici,1724.3877973585188,649
+23130,43.71310797 10.40208241,2014-06-11 16:46:16,186,Wednesday,"Svago (sport, escursioni, musei,...)",Bici,651.0809764928031,649
+23132,43.71655946 10.40442791,2014-06-11 21:38:57,1056,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Piedi,1015.8097099759842,649
+42788,43.71730802 10.40261794,2014-09-16 11:30:22,105,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Bici,219.10568348501124,649
+42790,43.71984004 10.40116623,2014-09-16 12:32:10,294,Tuesday  ,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,610.4614354916781,649
+42792,43.7208385 10.40801076,2014-09-16 17:05:57,521,Tuesday  ,Verso casa,Bici,1375.0168910068203,649
+42796,43.71414224 10.40124893,2014-09-16 18:17:12,577,Tuesday  ,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,727.2853602403559,649
+42822,43.71189712 10.40144373,2014-09-17 08:03:31,233,Wednesday,Prendere o lasciare qualcuno,Bici,636.4124754277212,649
+42824,43.71227376 10.40101714,2014-09-17 18:11:15,586,Wednesday,"A mangiare fuori (ristorante, fast food, pizzeria)",Piedi,784.3047596870308,649
+42826,43.7195535 10.40103487,2014-09-17 18:52:17,830,Wednesday,Verso casa,Piedi,881.3337503118636,649

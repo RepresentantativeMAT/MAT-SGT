@@ -1,0 +1,40 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+36272,43.647574 10.618361,2014-07-24 11:09:15,807,Thursday ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,6703.640802153151,908
+36276,43.6684 10.596564,2014-07-24 11:26:31,591,Thursday ,Verso casa,Automobile,6652.819143128661,908
+36280,43.647405 10.618416,2014-07-24 12:13:56,276,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,1848.6078125713927,908
+36286,43.652876 10.630799,2014-07-24 12:26:04,677,Thursday ,"Attività Sociali (bar, amici, parenti, feste,...)",Autobus/mezzi urbani,2060.184865562673,908
+36518,43.653216 10.630663,2014-07-24 15:24:20,333,Thursday ,Verso casa,Automobile,2488.3253364980565,908
+36522,43.647392 10.618448,2014-07-25 08:17:02,341,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,2227.933612409639,908
+36530,43.653 10.630714,2014-07-25 08:27:47,1067,Friday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Autobus/mezzi urbani,3423.563286628345,908
+36536,43.667065 10.646599,2014-07-25 10:42:47,566,Friday   ,Verso casa,Autobus/mezzi urbani,1663.2707144098697,908
+36858,43.662522 10.637972,2014-07-25 10:58:39,717,Friday   ,Verso casa,Autobus/mezzi urbani,4667.634574522524,908
+36860,43.647413 10.61841,2014-07-26 19:37:59,558,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,5569.132214217463,908
+36864,43.666507 10.652143,2014-07-26 19:54:12,3295,Saturday ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,52114.95010435522,908
+36916,43.862593 10.243935,2014-07-26 23:23:08,3920,Saturday ,Verso casa,Automobile,60259.49796872361,908
+37090,43.647416 10.618201,2014-07-28 06:30:33,5507,Monday   ,"Svago (sport, escursioni, musei,...)",Automobile,55170.82267632949,908
+37092,43.942452 10.559752,2014-07-28 08:58:52,269,Monday   ,"Svago (sport, escursioni, musei,...)",Automobile,743.0362023902707,908
+37094,43.940085 10.56443,2014-07-28 09:15:01,171,Monday   ,"Svago (sport, escursioni, musei,...)",Automobile,659.1500060502419,908
+37172,43.934851 10.559322,2014-07-28 09:23:01,4502,Monday   ,Verso casa,Automobile,52132.85859738944,908
+37176,43.647512 10.618646,2014-07-28 16:08:49,868,Monday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,4539.530134218588,908
+37356,43.650734 10.646053,2014-07-28 17:35:58,438,Monday   ,Verso casa,Automobile,3884.157364891112,908
+37360,43.647369 10.618386,2014-07-29 10:22:09,565,Tuesday  ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,5404.287601744298,908
+37380,43.664097 10.650028,2014-07-29 10:52:50,625,Tuesday  ,Verso casa,Automobile,5590.319920782408,908
+37384,43.647612 10.618321,2014-07-29 16:50:02,785,Tuesday  ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,3936.214696908514,908
+37586,43.625469 10.621747,2014-07-29 17:13:11,642,Tuesday  ,Verso casa,Automobile,4975.914930378688,908
+37588,43.647245 10.618195,2014-07-30 18:43:01,1255,Wednesday,Rifornimento carburante,Automobile,20658.15304256434,908
+37592,43.685877 10.432511,2014-07-30 19:07:46,1811,Wednesday,Prendere o lasciare qualcuno,Automobile,23464.292607723,908
+37882,43.829916 10.285792,2014-07-30 19:59:10,2676,Wednesday,Verso casa,Automobile,44808.85259360391,908
+37884,43.647366 10.618278,2014-07-31 16:03:20,1226,Thursday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,14233.77377780614,908
+37888,43.61877 10.5274,2014-07-31 16:28:07,1019,Thursday ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,13365.491807665978,908
+37924,43.673441 10.472735,2014-07-31 17:27:28,1225,Thursday ,Verso casa,Automobile,18193.632309561344,908
+38004,43.647636 10.618533,2014-08-02 14:24:45,614,Saturday ,Prendere o lasciare qualcuno,Automobile,4857.889022603347,908
+38008,43.663833 10.64006,2014-08-02 14:40:31,517,Saturday ,Verso casa,Automobile,3933.5439442866746,908
+38012,43.647136 10.617897,2014-08-02 15:11:32,541,Saturday ,"Shopping (supermercato, fornaio, macellaio,...)",Automobile,3243.970231469758,908
+38092,43.652385 10.624417,2014-08-02 16:04:42,356,Saturday ,Verso casa,Automobile,2431.0414683705667,908
+38182,43.64755 10.618347,2014-08-03 09:00:49,1162,Sunday   ,Prendere o lasciare qualcuno,Automobile,8836.58229838302,908
+38186,43.647448 10.618469,2014-08-03 13:54:18,882,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,7658.850314074368,908
+38190,43.649437 10.645172,2014-08-03 15:40:27,689,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,9102.580825203162,908
+38194,43.591668 10.695556,2014-08-03 16:13:21,484,Sunday   ,"Shopping (abbigliamento, calzature, mobili...)",Automobile,4816.957446295105,908
+38198,43.592469 10.6697,2014-08-03 16:50:38,1303,Sunday   ,"A mangiare fuori (ristorante, fast food, pizzeria)",Automobile,16001.034130442857,908
+38202,43.668034 10.596565,2014-08-03 18:02:53,670,Sunday   ,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,5819.41418082235,908
+38396,43.649453 10.645148,2014-08-03 18:49:17,537,Sunday   ,Verso casa,Automobile,4032.646293726844,908

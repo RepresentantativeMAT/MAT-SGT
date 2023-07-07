@@ -1,0 +1,9 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+14166,43.71984651316303 10.38467402570917,2014-05-28 06:00:41,487,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,1194.9773901468286,480
+14168,43.72119201816966 10.38897394203617,2014-05-28 09:06:24,751,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Bici,1294.986325165828,480
+14170,43.71970942713668 10.39736573585346,2014-05-28 09:21:49,1501,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Bici,1933.7731209493395,480
+14920,43.71262399483818 10.40034013801292,2014-05-28 09:58:31,450,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Piedi,286.4846493618681,480
+32832,43.71957074854869 10.38427714259399,2014-07-09 06:12:55,302,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,808.3284144506988,480
+32834,43.71958420150328 10.38425744512154,2014-07-09 13:11:48,1128,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Bici,2770.6677262219328,480
+32836,43.72002240740109 10.40767312982157,2014-07-09 14:05:51,655,Wednesday,"Shopping (abbigliamento, calzature, mobili...)",Bici,1316.8181608330003,480
+37130,43.71477843731989 10.40104120039418,2014-07-09 14:26:14,922,Wednesday,Verso casa,Bici,1982.5445641642848,480

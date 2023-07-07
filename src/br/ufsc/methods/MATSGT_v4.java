@@ -1,13 +1,15 @@
 /*
     
     
-    Lembrar que a Medida MUITAS agora está usando distância euclideana ao invés da célula
+    version 4: -- update on 15/06/23
 
-    version 3 test: -- update on 25/05/23
+    Ajustar arquivo de saída da RT
 
     ajustar normalizeRankingValuesNotNulls assim como "normalizeRankingValues" 
 
-     
+     #####
+
+     Ajustar conversão de data para dado representativo, para utilizar mesmo formato passado pelo usuário
         
  */
 package br.ufsc.methods;
@@ -23,7 +25,6 @@ import br.ufsc.model.TemporalAspect;
 import br.ufsc.util.CSVWriter;
 import br.ufsc.util.Util;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.DecimalFormat;
@@ -49,7 +50,7 @@ import measure.MUITAS;
  *
  * @author Vanessa
  */
-public class MATSG_TimeSeq_version3 {
+public class MATSGT_v4 {
     // Attributes 
 
     // ------------- to Spatial division -- Dataset file information
@@ -67,7 +68,7 @@ public class MATSG_TimeSeq_version3 {
     private final int THRESHOLD_TIME = 100;
 
     // --------------- to determine categoricals pre-defined values
-    List<String> lstCategoricalsPD = null;
+    List<String> lstCategoricalsPD;
     List<String> lstIgnoreCols = null;
     String[] valuesNulls; //witch values are considered null in input dataset?
 
@@ -419,6 +420,7 @@ public class MATSG_TimeSeq_version3 {
 
                 Double[] valuesNumInvalid = {-999.0, -1.0}; //Null values for numerical values
 
+                // VOLTAR AQUI
                 for (AttributeValue atv : p.getListAttrValues()) {
                     attrActual = "" + atv.getAttibute().getOrder();
 
@@ -427,7 +429,7 @@ public class MATSG_TimeSeq_version3 {
                     try {
                         //Vanessa: Algo de errado ao trabalhar com dados numericos
 
-                        val = Double.parseDouble((String) atv.getValue()); // val -1 refers to empty value
+                        val = Double.valueOf((String) atv.getValue()); // val -1 refers to empty value
 
                         attributes.get(attributes.indexOf(atv.getAttibute())).setType(SemanticType.NUMERICAL);
 
@@ -660,7 +662,7 @@ public class MATSG_TimeSeq_version3 {
         this.valuesNulls = valuesNULL;
         //Parameter for defining representativeness values and compute relevant cell
         this.threshold_rv = threshold_rv;
-        if (lstCategoricalsPD != null) {
+        if (lstCategoricalPD != null) {
             lstCategoricalsPD = Arrays.asList(lstCategoricalPD);
         }
         if (ignoreColumns != null) {
@@ -702,19 +704,19 @@ public class MATSG_TimeSeq_version3 {
         threshold_rc = rc > 0.0 ? (rc * points.size()) : 2; //If rc is greater than zero sets threshold according with number of points, else sets to 2
 
         //As auxiliar var to load all input trajectories & all points of trajectories (validation)
-        listAllTrajectories = List.copyOf(listTrajectories);
-        listTrajectories = new ArrayList<>();
-        List<Point> auxClusterPoints = List.copyOf(points);
-        points = new ArrayList<Point>();
+//        listAllTrajectories = List.copyOf(listTrajectories);
+//        listTrajectories = new ArrayList<>();
+////        List<Point> auxClusterPoints = List.copyOf(points);
+//        points = new ArrayList<Point>();
 
-        loadAllDataset();
+//        loadAllDataset();
 
-        List<MultipleAspectTrajectory> auxDataset = List.copyOf(listTrajectories);
-        listTrajectories = null;
-        listTrajectories = List.copyOf(listAllTrajectories);
-        listAllTrajectories = null;
-        listAllTrajectories = List.copyOf(auxDataset);
-        points = List.copyOf(auxClusterPoints);
+//        List<MultipleAspectTrajectory> auxDataset = List.copyOf(listTrajectories);
+//        listTrajectories = null;
+//        listTrajectories = List.copyOf(listAllTrajectories);
+//        listAllTrajectories = null;
+//        listAllTrajectories = List.copyOf(auxDataset);
+//        points = List.copyOf(auxClusterPoints);
 
         //######## automation - definition of better Z value - the spatial threshold
         // 1st - Calculates the spatial threshold according with the Z value and point dispersion
@@ -764,7 +766,7 @@ public class MATSG_TimeSeq_version3 {
                     count = 0;
                     betterRT = null;
                     betterRT = (MultipleAspectTrajectory) representativeTrajectory.clone();
-                    infoBetterRT = createInfoBetterRT(tempBetterZ, tempBetterRM, tempOnlyRM);
+                    infoBetterRT = createInfoBetterRT(tempBetterZ);
 
                 } else {
                     count++;
@@ -786,7 +788,7 @@ public class MATSG_TimeSeq_version3 {
 //            }
             String outputFile = directory + "output\\" + filename + " rc " + (int) (rc * 100) + " rv " + (int) (threshold_rv * 100) + " - z" + tempBetterZ;
             writeRepresentativeTrajectory(outputFile, infoBetterRT);
-            rankMUITAS(outputFile);
+//            rankMUITAS(outputFile);
             
         }
 
@@ -817,7 +819,7 @@ public class MATSG_TimeSeq_version3 {
         }
         int mappedPoints = 0;
         for (Map.Entry<String, Integer> eachValue : mapRank.entrySet()) {
-            double trendEachVal = (double) eachValue.getValue() / sizeRP;
+            double trendEachVal = (double) eachValue.getValue() / sizeRP; 
             if (trendEachVal >= threshold_rv) {
                 mappedPoints += eachValue.getValue();
             } else {
@@ -1055,128 +1057,7 @@ public class MATSG_TimeSeq_version3 {
 
     }
 
-    // ############## For validation #############
-    private void loadAllDataset() throws IOException, ParseException {
-
-        java.io.Reader input = new FileReader(directory + filenameFullDataset + extension);
-        BufferedReader reader = new BufferedReader(input);
-
-        String datasetRow = reader.readLine();
-
-        datasetRow = reader.readLine();
-        String[] datasetColumns;
-        //EoF - To get the trajectory data of dataset of each line
-        while (datasetRow != null) {
-            datasetColumns = datasetRow.toUpperCase().split(SEPARATOR);
-            addAttributeValues(datasetColumns);
-            datasetRow = reader.readLine();
-        }
-
-        reader.close();
-
-    }
-
-    public void rankMUITAS(String fileOutput) throws ParseException {
-        if (betterRT.getPointList().isEmpty()) {
-            System.out.println("RT is empty");
-            return;
-        }
-
-        MUITAS measure = new MUITAS();
-
-        // Compute weights
-        float totalWeight = 1.0f;
-        float spatialWeight = 0.34f;
-        float timeWeight = 0.33f;
-        float attributeWeight = totalWeight / attributes.size();
-        measure.setWeight("SPATIAL", spatialWeight);
-        measure.setWeight("TIME", timeWeight);
-        for (SemanticAspect eachAtt : attributes) {
-            measure.setWeight(eachAtt, attributeWeight);
-            if (eachAtt.getType().equals(SemanticType.NUMERICAL)) {
-                measure.setThreshold(eachAtt, 10);
-            }
-        }
-
-        // Set spatial threshold
-        measure.setThreshold("SPATIAL", spatialThreshold * 2);
-
-        // Compute rank measures
-        Map<MultipleAspectTrajectory, Double> trajectoryRanks = new HashMap<>();
-        StringBuilder infoMeasure = new StringBuilder();
-        int countPrecisionRetrieved = 0;
-        int countRecallRetrieved = 0;
-
-        for (MultipleAspectTrajectory eachTraj : listAllTrajectories) {
-            double similarity = measure.similarityOf(betterRT, eachTraj);
-            trajectoryRanks.put(eachTraj, similarity);
-        }
-
-        trajectoryRanks = trajectoryRanks.entrySet().stream()
-                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
-                        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
-
-        int countTClass = 0;
-        for (Map.Entry<MultipleAspectTrajectory, Double> retrievedT : trajectoryRanks.entrySet()) {
-            countPrecisionRetrieved++;
-            MultipleAspectTrajectory retrievedTrajectory = retrievedT.getKey();
-            infoMeasure.append(retrievedTrajectory.getId()).append(", ")
-                    .append(retrievedT.getValue()).append(", ")
-                    .append(countPrecisionRetrieved).append(", ");
-
-            if (listTrajectories.contains(retrievedTrajectory)) {
-                countTClass++;
-                infoMeasure.append("1");
-
-                if (countPrecisionRetrieved <= listTrajectories.size()) {
-                    countRecallRetrieved++;
-                }
-            } else {
-                infoMeasure.append("0");
-            }
-            infoMeasure.append("\n");
-
-            if (countTClass == listTrajectories.size()) {
-                break;
-            }
-        }
-
-        // Write validation results to CSV file
-        try {
-            CSVWriter mxWriter = new CSVWriter(fileOutput + "[Validation]" + extension);
-            mxWriter.writeLine("Method validation information:");
-            mxWriter.writeLine("|Ground Truth|, |all input dataset|, |T.P.retrieved|, Precision, |T.R.retrieved|, Recall, F-Score");
-            mxWriter.writeLine(listTrajectories.size() + ", " + listAllTrajectories.size() + ", "
-                    + countPrecisionRetrieved + ", " + formatNumber.format((double) listTrajectories.size() / countPrecisionRetrieved) + ", "
-                    + countRecallRetrieved + ", " + formatNumber.format((float) countRecallRetrieved / listTrajectories.size()) + ", ??");
-            mxWriter.writeLine("##");
-            mxWriter.writeLine("Measure description:");
-            mxWriter.writeLine("Trajectory ID, MUITAS, #rank, Ground Truth?");
-            mxWriter.writeLine(infoMeasure.toString());
-            mxWriter.flush();
-            mxWriter.close();
-
-            String fileCompleteValidation = directory + "output\\" + filename + "[Validation]" + extension;
-            CSVWriter valWriter;
-            if (!new File(fileCompleteValidation).exists()) {
-                valWriter = new CSVWriter(fileCompleteValidation);
-                valWriter.writeLine("Method validation information:");
-                valWriter.writeLine("Setting rv, Setting rc, |Ground Truth|, |all input dataset|, |T.P.retrieved|, Precision, |T.R.retrieved|, Recall, F-Score");
-            } else {
-                valWriter = new CSVWriter(fileCompleteValidation, true);
-            }
-            valWriter.writeLine(formatNumber.format(threshold_rv) + ", " + formatNumber.format(threshold_rc / points.size()) + ", "
-                    + listTrajectories.size() + ", " + listAllTrajectories.size() + ", "
-                    + countPrecisionRetrieved + ", " + formatNumber.format((double) listTrajectories.size() / countPrecisionRetrieved) + ", "
-                    + countRecallRetrieved + ", " + formatNumber.format((float) countRecallRetrieved / listTrajectories.size()) + ", ??");
-            valWriter.flush();
-            valWriter.close();
-
-        } catch (IOException e) {
-            throw new RuntimeException("Error occurred while ranking input trajectories against RT", e);
-        }
-    }
+    
 
     // Reusable codes
     /**
@@ -1264,13 +1145,13 @@ public class MATSG_TimeSeq_version3 {
     }
 
     private void createRepresentativePoints(List<STI> significantTemporalIntervals) {
-        System.out.println("All STI");
-        System.out.println(significantTemporalIntervals);
+        //System.out.println("All STI");
+        //System.out.println(significantTemporalIntervals);
         
-        System.out.println("STIs com mais pontos acordo com o tau_rv ");
+        //System.out.println("STIs com mais pontos acordo com o tau_rv ");
         for (STI interval : significantTemporalIntervals) {
             if (interval.getProportion() >= threshold_rv) {
-                System.out.println("STI: "+interval+" -- proportion: "+interval.getProportion());
+//                System.out.println("STI: "+interval+" -- proportion: "+interval.getProportion());
                 Centroid representativePoint = createCentroidForSTI(interval);
 
                 if (!representativePoint.getPointListSource().isEmpty()) {
@@ -1321,15 +1202,50 @@ public class MATSG_TimeSeq_version3 {
             mxWriter.writeLine(listTrajectories.size() + ", " + points.size());
             mxWriter.writeLine("##");
             mxWriter.writeLine("RT setting infos:");
-            mxWriter.writeLine("thresholdCellSize, |rt|, CellSize, "
-                    + "tauRelevantCell, minPointsRC, "
-                    + "tauRepresentativenessValue, |cell|, "
-                    + "RepresentativenessMeasure, |cover RT|");
+            
+            
+            
+            mxWriter.writeLine("thresholdCellSize, CellSize, "
+                    + "tauRelevantCell, tauRepresentativenessValue, "
+                    + "|cell|, minPointsRC, "
+                    + "|rt|, |coverPoints|");
+            
+            
+            
             mxWriter.writeLine(infoBetterRT);
             mxWriter.writeLine("##");
             mxWriter.writeLine("RT description:");
+            
+            
+            
+            //Descrição do cabeçalho da RT
+            String head = "lat_lon, time, ";
+            for(SemanticAspect att: attributes){
+                head += att.getName()+", ";
+            }
+            head += "mapping"
+//                    + ", cell"
+                    ;
+                    
+            mxWriter.writeLine(head);
+            mxWriter.flush();
             for (Point p : betterRT.getPointList()) {
-                mxWriter.writeLine(p.toString());
+                Centroid rp = ((Centroid)p);
+                String eachPoint = rp.getX()+" "+rp.getY()+", ";
+                eachPoint += rp.getSti()+", ";
+                
+                for(SemanticAspect att: attributes){
+                    //head += rp.getAttributeValue(att)+", ";
+                    
+                    AttributeValue atv = rp.findAttributeValue(att.getName());
+//                    System.out.println("attribute: "+att+"; atv: "+atv);
+                    eachPoint += atv == null ? "null , " : (atv.getValue().toString().replace(",", ";").replace("=", ": ") +", ");
+                    
+                }
+                eachPoint += rp.getMappingInformation()+", ";
+//                eachPoint += rp.getCellReference();
+                
+                mxWriter.writeLine(eachPoint);
                 mxWriter.flush();
             }
             mxWriter.flush();
@@ -1339,7 +1255,7 @@ public class MATSG_TimeSeq_version3 {
         }
     }
 
-    private String createInfoBetterRT(int tempBetterZ, float tempBetterRM, float tempOnlyRM) {
+    private String createInfoBetterRTAnt(int tempBetterZ, float tempBetterRM, float tempOnlyRM) {
         return tempBetterZ + ", "
                 + betterRT.getPointList().size() + ", "
                 + cellSizeSpace + ", " + rc + ", "
@@ -1347,8 +1263,21 @@ public class MATSG_TimeSeq_version3 {
                 + spatialCellGrid.size() + ", "
                 + tempBetterRM + ", "
                 + betterRT.getCoverPoints();
-//             + ", "
-//                + tempOnlyRM;
+    }
+    
+        private String createInfoBetterRT(int tempBetterZ) {
+        return 
+                tempBetterZ + ", " // thresholdCellSize
+                + cellSizeSpace + ", " // cellSize
+                + rc + ", " //tauRelevantCell
+                + threshold_rv + ", " //tauRepresentativenessValue
+                + spatialCellGrid.size() + ", " // |cell|
+                + threshold_rc + ", " // minPointsRC 
+                + betterRT.getPointList().size() + ", " // |rt|
+//                + tempBetterRM + ", " // RepresentativenessMeasure
+                + betterRT.getCoverPoints(); // |coverPoints|
+        
+        
     }
 
     //################# getter and setter

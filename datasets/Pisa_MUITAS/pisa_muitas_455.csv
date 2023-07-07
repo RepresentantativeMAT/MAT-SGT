@@ -1,0 +1,10 @@
+tid,coordinates,time_start,duration,weekday,activity,transportation,distance,label
+17224,43.702106 10.786312,2014-06-03 15:51:32,838,Tuesday  ,Al lavoro,Automobile,15199.45866724225,455
+17226,43.7151 10.933723,2014-06-03 19:59:03,1218,Tuesday  ,Verso casa,Automobile,17545.227365451017,455
+17230,43.714119 10.781405,2014-06-03 20:40:07,297,Tuesday  ,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Automobile,3953.743414940474,455
+17232,43.659584 10.646344,2014-06-04 06:29:23,415,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,8256.43037246807,455
+17234,43.684404 10.495025,2014-06-04 06:42:04,983,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Treno,8548.8099810936,455
+28354,43.710302 10.402545,2014-06-04 07:01:52,488,Wednesday,"Studio formazione (scuola, università, corsi, seminari,...)",Piedi,679.0973713660434,455
+28358,43.680094 10.51944,2014-06-04 12:15:33,928,Wednesday,"Spostamento incompleto (batteria scarica, crash app, errore di connessione GPS)",Treno,21138.918672341417,455
+28362,43.711044 10.778908,2014-06-04 19:54:06,461,Wednesday,"Attività Sociali (bar, amici, parenti, feste,...)",Automobile,4885.857680587474,455
+28366,43.741473 10.788397,2014-06-04 22:08:47,786,Wednesday,Verso casa,Automobile,8595.421090319107,455

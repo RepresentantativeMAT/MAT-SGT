@@ -3,11 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.ufsc.model;
+package br.ufsc.util;
 
+import br.ufsc.model.Point;
+import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -62,4 +67,61 @@ public class Util {
             return (float) Math.sqrt( Math.pow(p1.getX(),2) + Math.pow(p1.getY(),2) );
         }
  
+        
+        
+            /**
+     * calculates the average of a list of integers correctly accept "float" or
+     * "integer" values
+     *
+     * @param values
+     * @return average value
+     */
+    public static <T extends Number> float calculateAverage(List<T> values) {
+        float sum = 0;
+        for (T val : values) {
+            sum += val.floatValue();
+
+        }
+        return (float) sum / values.size();
+    }
+
+    /**
+     * calculates the median of a list of integers correctly.
+     *
+     * @param values
+     * @return median value
+     */
+    public static <T extends Number & Comparable<? super T>> float calculateMedian(List<T> values) {
+        Collections.sort(values, Comparator.naturalOrder());
+        int size = values.size();
+        int middleIndex = size / 2;
+        if (size % 2 == 1) {
+            return values.get(middleIndex).floatValue();
+        } else {
+            T value1 = values.get(middleIndex - 1);
+            T value2 = values.get(middleIndex);
+            return (value1.floatValue() + value2.floatValue()) / 2;
+        }
+    }
+
+    public static <T extends Number> float calculateStandardDeviation(List<T> values, float average) {
+        float sumOfSquares = 0;
+        for (T value : values) {
+            float differenceMinusAverage = value.floatValue() - average;
+            sumOfSquares += differenceMinusAverage * differenceMinusAverage;
+        }
+        float meanOfSquares = sumOfSquares / values.size();
+        return (float) Math.sqrt(meanOfSquares);
+    }
+
+    public static List<Integer> removeOutliers(List<Integer> values, float lowerValue, float upperValue) {
+        List<Integer> validValues = new ArrayList<>();
+        for (int val : values) {
+            if (val >= lowerValue && val <= upperValue) {
+                validValues.add(val);
+            }
+        }
+        return validValues;
+    }
+
 }
